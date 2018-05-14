@@ -48,7 +48,7 @@
 			<div class="register-proving">
 				<div class="register-proving">
 				<div class="proving-text">验证码:</div>
-				<input class="proving-box" style="width:150px;height:40px;" " type="text" name="emali" value="    请输入验证码" />
+				<input class="proving-box" style="width:150px;height:40px;" " type="text" name="emali" value="" />
 				<div class="proving-image" >
 				<img src = "lostAndFounds/admin/getVerify.php">	
 					<h2>验证图片</h2>
