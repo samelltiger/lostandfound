@@ -104,14 +104,14 @@ p
 }
 .left-regin
 {
-	background: #999;
+	background: #fff;
 	width: 49%;
 	height:700px;
 	float:left;
 }
 .right-regin
 {
-	background:#999;
+	background:#fff;
 	width:49%;
 	height:700px;
 	float:right;
@@ -127,7 +127,7 @@ p
 {
 	height: 275px;
 	width: 250px;
-	background: #999;
+	background: #fff;
 	margin-top: 160px;
 	margin-left: 130px;
 }
@@ -160,7 +160,7 @@ p
 {
 	width: 50%;
 	height: inherit;
-	background: #888;
+	background: #fff;
 	float:left;
 }
 .contact-person-input
@@ -173,7 +173,7 @@ p
 {
 	width: 50%;
 	height: inherit;
-	background: #444;
+	background: #fff;
 	float: right;
 }
 .contact-way-input
@@ -193,7 +193,7 @@ p
 {
 	width: 50%;
 	height: inherit;
-	background: #888;
+	background: #fff;
 	float:left;
 }
 .item-sort-input
@@ -206,7 +206,7 @@ p
 {
 	width: 50%;
 	height: inherit;
-	background: #444;
+	background: #fff;
 	float: right;
 }
 .pickup-time-input
@@ -226,7 +226,7 @@ p
 {
 	width: 50%;
 	height: inherit;
-	background: #888;
+	background: #fff;
 	float:left;
 }
 .updata-image-title-input
