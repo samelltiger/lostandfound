@@ -24,7 +24,7 @@
 			
 		</nav>
 	</header>
-
+	<form method="post" action="doRegister.php">
 	<div class="content">
 		<section class="main-regin">
 			 <div class="register-title-box">
@@ -33,22 +33,28 @@
 
 			 <div class="user-name-box">
 				<div class="user-name">用户名:</div>
-				<input class="user-name-input" style="width:300px;height:40px;" " type="text" name="emali" value="    " />
+				<input class="user-name-input" style="width:300px;height:40px;" " type="text" name="username" value="    " />
 			</div>
 
 			 <div class="school-name-box">
 				<div class="school-name">学校:</div>
-				<input class="school-name-input" style="width:300px;height:40px;" " type="text" name="emali" value="    " />
+				    <select name ="school">
+      					<option val="hnnydx">湖南农业大学</option>
+      					<option value="hnsfdx" selected = "selected">湖南师范大学</option>
+     					<option value="cslgdx">长沙理工大学</option>
+      					<option value="zndx">中南大学</option>
+    				</select>
+				
 			</div>
 
 			<div class="password-box">
 				<div class="password">密码:</div>
-				<input class="password-input" style="width:300px;height:40px;" " type="text" name="emali" value="    " />
+				<input class="password-input" style="width:300px;height:40px;" " type="password" name="password" value="    " />
 			</div>	
 
 			<div class="password-sure-box">
 				<div class="password-sure">确认密码:</div>
-				<input class="password-sure-input" style="width:300px;height:40px;"  type="text" name="emali" value="    " />
+				<input class="password-sure-input" style="width:300px;height:40px;"  type="password" name="passwoedsure" value="    " />
 			</div>
 
 			<div class="email-box">
@@ -73,7 +79,7 @@
 			</div>
 
 			<div class="register">
-				 <button class="register-button" type="button">注册</button>
+				 <input type="submit" name="注册" class="register-button" >
 			</div>
 		</section>
 	</div>

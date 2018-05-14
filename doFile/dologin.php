@@ -2,7 +2,7 @@
 require_once '../include.php';
 $username = $_POST['username'];
 $password = md5($_POST['password']);
-$verify =$_POST['verify'];
+$verify = $_POST['verify'];
 $verify1 = $_POST['verify'];
 if ($verify == $verify1) {
 	$sql = "select * from user where uname ='{$username}' and pwd ='{$password}'";
