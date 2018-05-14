@@ -104,14 +104,14 @@ p
 }
 .left-regin
 {
-	background: #999;
+	background: #fff;
 	width: 49%;
 	height:700px;
 	float:left;
 }
 .right-regin
 {
-	background:#999;
+	background:#fff;
 	width:49%;
 	height:700px;
 	float:right;
@@ -127,14 +127,14 @@ p
 {
 	height: 275px;
 	width: 250px;
-	background: #999;
+	background: #fff;
 	margin-top: 160px;
 	margin-left: 130px;
 }
 
 .item-descripption
 {
-	margin-top: 50px;
+	margin-top: 130px;
 	width: 100%;
 	height:86px; 
 
@@ -147,6 +147,7 @@ p
 {
 	margin-top: 5px;
 	outline: none;
+	border: 1px solid;
 }
 
 .contact
@@ -159,25 +160,27 @@ p
 {
 	width: 50%;
 	height: inherit;
-	background: #888;
+	background: #fff;
 	float:left;
 }
 .contact-person-input
 {
-	margin-right:50px;
+	margin-right:48px;
 	margin-top: 5px;
+	border: 1px solid;
 }
 .contact-way
 {
 	width: 50%;
 	height: inherit;
-	background: #444;
+	background: #fff;
 	float: right;
 }
 .contact-way-input
 {
-	margin-right: 50px;
+	margin-right: 48px;
 	margin-top: 5px;
+	border: 1px solid;
 }
 
 .main-item
@@ -190,25 +193,27 @@ p
 {
 	width: 50%;
 	height: inherit;
-	background: #888;
+	background: #fff;
 	float:left;
 }
 .item-sort-input
 {
-	margin-right:50px;
+	margin-right:48px;
 	margin-top: 5px;
+	border: 1px solid;
 }
 .pickup-time
 {
 	width: 50%;
 	height: inherit;
-	background: #444;
+	background: #fff;
 	float: right;
 }
 .pickup-time-input
 {
-	margin-right: 50px;
+	margin-right: 48px;
 	margin-top: 5px;
+	border: 1px solid;
 }
 
 .updata-image
@@ -221,7 +226,7 @@ p
 {
 	width: 50%;
 	height: inherit;
-	background: #888;
+	background: #fff;
 	float:left;
 }
 .updata-image-title-input
@@ -254,8 +259,8 @@ p
 }
 .file:hover {
     background: #999;
-    border-color: #78C3F3;
-    color: #004974;
+    border-color: #999;
+    color: #fff;
     text-decoration: none;
 }
 .updata-image-button
@@ -264,4 +269,22 @@ p
 	height: 60px;
 	border: 1px solid;
 	margin-top: 10px;
+}
+.updata
+{
+	 width: 100%;
+    height: 70px;
+    background: #fff;
+}
+.updata-button
+{
+	width:100%;
+	height: 40px;
+	background: #000;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	border:none;
+   
+    margin-top: 15px;
 }

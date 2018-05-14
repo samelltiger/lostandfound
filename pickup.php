@@ -73,6 +73,10 @@
                  	   </div>
                  	   
                  </div>
+
+                 <div class="updata">
+				 <button class="updata-button" type="button">提交</button>
+			</div>
 			</div>
 		</section>
 	</div>
