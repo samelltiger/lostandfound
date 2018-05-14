@@ -134,7 +134,7 @@ p
 
 .item-descripption
 {
-	margin-top: 50px;
+	margin-top: 130px;
 	width: 100%;
 	height:86px; 
 
@@ -147,6 +147,7 @@ p
 {
 	margin-top: 5px;
 	outline: none;
+	border: 1px solid;
 }
 
 .contact
@@ -164,8 +165,9 @@ p
 }
 .contact-person-input
 {
-	margin-right:50px;
+	margin-right:48px;
 	margin-top: 5px;
+	border: 1px solid;
 }
 .contact-way
 {
@@ -176,8 +178,9 @@ p
 }
 .contact-way-input
 {
-	margin-right: 50px;
+	margin-right: 48px;
 	margin-top: 5px;
+	border: 1px solid;
 }
 
 .main-item
@@ -195,8 +198,9 @@ p
 }
 .item-sort-input
 {
-	margin-right:50px;
+	margin-right:48px;
 	margin-top: 5px;
+	border: 1px solid;
 }
 .pickup-time
 {
@@ -207,8 +211,9 @@ p
 }
 .pickup-time-input
 {
-	margin-right: 50px;
+	margin-right: 48px;
 	margin-top: 5px;
+	border: 1px solid;
 }
 
 .updata-image
@@ -254,8 +259,8 @@ p
 }
 .file:hover {
     background: #999;
-    border-color: #78C3F3;
-    color: #004974;
+    border-color: #999;
+    color: #fff;
     text-decoration: none;
 }
 .updata-image-button
@@ -264,4 +269,22 @@ p
 	height: 60px;
 	border: 1px solid;
 	margin-top: 10px;
+}
+.updata
+{
+	 width: 100%;
+    height: 70px;
+    background: #fff;
+}
+.updata-button
+{
+	width:100%;
+	height: 40px;
+	background: #000;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	border:none;
+   
+    margin-top: 15px;
 }
