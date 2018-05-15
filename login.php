@@ -15,7 +15,7 @@
 				<li><a href="#">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
-			<p><a href="">登录</a > | <a href="">注册</a></p>
+			<p><a href="login.php">登录</a > | <a href="register.php">注册</a></p>
 		    </div>
 			<div class="search-box">
 				<div class="search-logo"><a href="#"><img src="image\search.png"></a></div>
@@ -32,33 +32,37 @@
 				 <img src="image\电脑手机.png" alt="">
 			</div>
 		</div>
+		<form method="post" action="./doFile/dologin.php">
 		<div class="register-right">
 			<div class="register-titel-box">
 				<h1 class="register-titel">登录</h1>
 			</div>
 			<div class="register-email">
-				<div class="email-text">邮箱:</div>
-				<input class="email-box" style="width:300px;height:40px;" " type="text" name="emali"  value="" />
+				<div class="email-text">账号:</div>
+				<input class="email-box" style="width:300px;height:40px;" " type="text" name="username"   />
 			</div>
 			<div class="register-password">
 				<div class="register-mima">
 				<div class="password-text">密码:</div>
-				<input class="password-box" style="width:300px;height:40px;" " type="text" name="emali"  />
+				<input class="password-box" style="width:300px;height:40px;" " type="password" name="password"  />
 			</div>
 			<div class="register-proving">
 				<div class="register-proving">
 				<div class="proving-text">验证码:</div>
-				<input class="proving-box" style="width:150px;height:40px;" " type="text" name="emali" value="" />
+				<input class="proving-box" style="width:150px;height:40px;" " type="text" name="emali" placeholder="    请输入验证码" />
 				<div class="proving-image" >
-				<img src = "lostAndFounds/admin/getVerify.php">	
-					<h2>验证图片</h2>
+				<img src = "doFile/getVerify.php">	
+			
 				</div>
 			</div>
-			<div class="button-box">	
-				<button class="register-button" type="button">注册</button>
-				<button class="login-button" type="button">登录</button>
+			<div class="button-box">
+				<a href="./register.php" class="register-button"> 注册</a>
+				<input class="login-button" type="submit" value = "登录" />
 			</div>
+		
+		
 		</div>
+	</form>
 	</section>
     </div>
 	<footer>
