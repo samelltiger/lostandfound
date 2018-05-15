@@ -15,7 +15,7 @@
 				<li><a href="#">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
-			<p><a href="">登录</a > | <a href="">注册</a></p>
+			<p><a href="login.php">登录</a > | <a href="register.php">注册</a></p>
 		    </div>
 			<div class="search-box">
 				<div class="search-logo"><a href="#"><img src="image\search.png"></a></div>
@@ -32,14 +32,14 @@
 				 <img src="image\电脑手机.png" alt="">
 			</div>
 		</div>
-		<form method="post" action="doLogin">
+		<form method="post" action="./doFile/dologin.php">
 		<div class="register-right">
 			<div class="register-titel-box">
 				<h1 class="register-titel">登录</h1>
 			</div>
 			<div class="register-email">
 				<div class="email-text">账号:</div>
-				<input class="email-box" style="width:300px;height:40px;" " type="text" name="username"  value="" />
+				<input class="email-box" style="width:300px;height:40px;" " type="text" name="username"   />
 			</div>
 			<div class="register-password">
 				<div class="register-mima">
@@ -49,7 +49,7 @@
 			<div class="register-proving">
 				<div class="register-proving">
 				<div class="proving-text">验证码:</div>
-				<input class="proving-box" style="width:150px;height:40px;" " type="text" name="emali" value="    请输入验证码" />
+				<input class="proving-box" style="width:150px;height:40px;" " type="text" name="emali" placeholder="    请输入验证码" />
 				<div class="proving-image" >
 				<img src = "doFile/getVerify.php">	
 			
