@@ -49,14 +49,14 @@
 			<div class="register-proving">
 				<div class="register-proving">
 				<div class="proving-text">验证码:</div>
-				<input class="proving-box" style="width:150px;height:40px;" " type="text" name="emali" placeholder="    请输入验证码" />
+				<input class="proving-box" style="width:150px;height:40px;" " type="text" name="emali" placeholder="" />
 				<div class="proving-image" >
 				<img src = "doFile/getVerify.php">	
 			
 				</div>
 			</div>
 			<div class="button-box">
-				<a href="./register.php" class="register-button"> 注册</a>
+				<a href="./register.php" class="register-button">注册</a>
 				<input class="login-button" type="submit" value = "登录" />
 			</div>
 		
