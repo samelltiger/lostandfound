@@ -9,6 +9,7 @@
 <body>
 	<header>
 		<nav>
+			
 			<div class="logo"><a href="#"><img src="image\logo.png"></a></div>
 			<ul>
 				<li><a href="#">拾物</a></li>
