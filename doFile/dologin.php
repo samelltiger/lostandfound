@@ -3,8 +3,9 @@ require_once '../include.php';
 $username = $_POST['username'];
 $password = md5($_POST['password']);
 $verify =isset($_POST['verify'])? $_POST['verify']:null;
-$link = mysqli_connect('localhost','root','','lostfound');
-mysqli_set_charset($link,'utf8');
+// $link = mysqli_connect('localhost','root','','lostfound');
+// mysqli_set_charset($link,'utf8');
+$link = connect();
 
 
 if($username==''){
@@ -53,6 +54,7 @@ if($row){
 	else{
 		$_SESSION['username']=$row['uname'];
 		$_SESSION['password']=$row['pwd'];
+		// $_SESSION['username'] = $_POST['username'];
 		echo "<script>alert('登录成功');location='../mainpage.php'</script>";
 	}
 

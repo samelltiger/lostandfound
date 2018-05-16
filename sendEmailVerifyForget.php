@@ -4,7 +4,8 @@
 require_once 'include.php';
 require_once './lib/sendEmail.php';
 $email = $_POST['email'];
-$link = mysqli_connect('localhost','root','','lostfound');
+// $link = mysqli_connect('localhost','root','','lostfound');
+$link = connect();
 $sql_select = "select * from user where  email=? ";
 $stmt = mysqli_prepare($link,$sql_select);
 mysqli_stmt_bind_param($stmt,'s',$email);
