@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/mainpage.css">
     <script type="text/javascript" src="/js/mainpage.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/zzsc-demo.css">
 </head>
 <body>
 	<header>
@@ -48,25 +49,35 @@
 				<li class="menu-li-2"><a class="menu-a" href="">其他</a></li>
 			</ul>
 		</div>
-	    </section >
+	    </section>
 
 		<section class="section2">
 			  <div class="big-box1">
 			  	<div class="box1"><img src="image\10.png" alt=""></div>
-			  	<div class="box2"><img src="image\2.png" alt=""></div>
+			  			<!-- <div class="box1">
+			  	 	    <figure class="imghvr-flip-vert"><img src="image\10.png" alt=" example-image">
+			  	 		                  <figcaption>
+			  	 		                     <h3>Hello World</h3>
+			  	 		                     <p>Life is too important to be taken seriously!</p>
+			  	 		                   </figcaption><a href="javascript:;"></a>
+			  	 	                    </figure>
+			  	 	             </div> -->
+	           <!--  <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-vert</textarea> -->
+			    <div class="box2"><img src="image\2.png" alt=""></div>
 			    <div class="box4"><img src="image\3.png" alt=""></div>
+			   
 			  </div>
 			  <div class="big-box2">
-			  <div class="box3"><img src="image\4.png" alt=""></div>
+			  <div class="box3"><img src="image\4.png" alt=""></div>  
 			  <div class="box5"><img src="image\5.png" alt=""></div>
 			  </div>
 			  <div class="big-box3">
 			  <div class="box6"><img src="image\6.png" alt=""></div>
 			  </div>
 			  <div class="big-box4">
-			  <div class="box7"><img src="image\2.png" alt=""></div>
+			  <div class="box7"><img src="image\12.png" alt=""></div>
 			  <div class="box8"><img src="image\9.png" alt=""></div>
-			  <div class="box9"><img src="image\2.png" alt=""></div
+			  <div class="box9"><img src="image\11.png" alt=""></div
 			  </div>	
 		</section>
 

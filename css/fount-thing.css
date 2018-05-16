@@ -142,6 +142,16 @@ p
 	height:800px;
 	/* background: #888; */
 }
+.main-regin div:hover div
+{
+  
+  transform: scale(1.05, 1.05);   /* 鼠标悬停放大 */
+
+}
+.main-regin div a
+{
+  transition:all .5s;/* opacity:0.4;filter:alpha(opacity=40); 变暗*/
+}  /*  动画时间 */
 .text-box
 {
 	height: 100px;

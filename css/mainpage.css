@@ -184,13 +184,18 @@ p
 
 .section2 div div:hover img
 {
+  
   transform: scale(1.05, 1.05);   /* 鼠标悬停放大 */
-}
 
+}
+.section2 div img
+{
+	transition:all .5s;/* opacity:0.4;filter:alpha(opacity=40); 变暗*/
+}  /*  动画时间 */
 .section2
 {
 	width: 100%;
-	height: 600px;
+	height: 600px;	
 	background: #fff;
 	margin-top:40px;
 	overflow:hidden;
@@ -201,25 +206,56 @@ p
 	height: 380px;
 	background:#fff;
 	float: left;
+	cursor:pointer;
+}
+img
+{
+	max-height: 100%;
+	max-width: 100%;
 }
 .box1
 {
    width: 500px;
    height: 180px;
    background:#888;
-   margin-top: 10px;
+   margin-top:10px;
   /* 	 margin-left:10px; */
    float: left;
 }
+.box1 .bmbox
+{ 
+  width:300px; 
+  height:30px; 
+  background:black; 
+  position:absolute; 
+  bottom:0px; 
+  left:0px; 
+  display:none;
+  font:12px/30px "宋体"; color:white;
+  text-align:center;
+ }
+ .box1:hover .bmbox{
+  width:300px; 
+  height:30px; 
+  background:black; 
+  position:absolute; 
+  bottom:0px; 
+  left:0px; 
+  display:block;
+  font:12px/30px "宋体"; color:white;
+  text-align:center;
+
+ }
 .box2
 {
 	 width: 290px;
    height: 180px;
    background:#888;
-   margin-top: 10px;
- 
+   margin-top:10px;
+  cursor:pointer;
    float: left;
 }
+
 .box4
 {
 	 width: 200px;
@@ -227,6 +263,7 @@ p
    background:#888;
    margin-top: 10px;
      margin-left:10px;
+     cursor:pointer;
   /*  margin-left:10px; */
    float:left;
 }
@@ -244,6 +281,7 @@ p
    background:#888;
    margin-top: 10px;
    float: left;
+   cursor:pointer;
 }
 
 .box5
@@ -253,6 +291,7 @@ p
 	background:#999;
 	float: left;
 	margin-top: 10px;
+	cursor:pointer;
 }
 .big-box3
 {
@@ -269,6 +308,7 @@ p
 	background: #999;
 	margin-top: 10px;
 	margin-left: 10px;
+	cursor:pointer;
 }
 .big-box4
 {
@@ -284,6 +324,7 @@ p
 	float: left;
 	background: #999;
 	margin-top: 10px;
+	cursor:pointer;
 
 }
 .box8
@@ -294,6 +335,7 @@ p
 	background: #999;
 	margin-top: 10px;
 	margin-left: 10px;
+	cursor:pointer;
 }
 .box9
 {
@@ -303,6 +345,7 @@ p
     float: left;
     margin-left: 12px;
     margin-top: 10px;
+    cursor:pointer;
 }
 .section3
 {
@@ -348,3 +391,107 @@ p
 	outline: none;
 	color: #000;
 } 
+
+
+
+
+[class^='imghvr-'],
+[class*=' imghvr-'] {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  max-width: 100%;
+  background-color: rgba(1, 87, 155, 0.75);
+  color: #fff;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+[class^='imghvr-'] > img,
+[class*=' imghvr-'] > img {
+  vertical-align: top;
+  max-width: 100%;
+}
+[class^='imghvr-'] figcaption,
+[class*=' imghvr-'] figcaption {
+  background-color: inherit;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+[class^='imghvr-'] h3,
+[class*=' imghvr-'] h3,
+[class^='imghvr-'] p,
+[class*=' imghvr-'] p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+[class^='imghvr-'] a,
+[class*=' imghvr-'] a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+[class^='imghvr-'],
+[class*=' imghvr-'],
+[class^='imghvr-']:before,
+[class^='imghvr-']:after,
+[class*=' imghvr-']:before,
+[class*=' imghvr-']:after,
+[class^='imghvr-'] *,
+[class*=' imghvr-'] *,
+[class^='imghvr-'] *:before,
+[class^='imghvr-'] *:after,
+[class*=' imghvr-'] *:before,
+[class*=' imghvr-'] *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+/* imghvr-fade
+   ----------------------------- */
+.imghvr-fade figcaption {
+  opacity: 0;
+}
+.imghvr-fade:hover > img {
+  opacity: 0;
+}
+.imghvr-fade:hover figcaption {
+  opacity: 1;
+}
+/* imghvr-push-*
+   ----------------------------- */
+[class^='imghvr-push-']:hover figcaption,
+[class*=' imghvr-push-']:hover figcaption {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+/* imghvr-flip-vert
+   ----------------------------- */
+.imghvr-flip-vert figcaption {
+  -webkit-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+.imghvr-flip-vert:hover > img {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+.imghvr-flip-vert:hover figcaption {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
