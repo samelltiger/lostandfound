@@ -5,6 +5,8 @@
 	<title></title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/register.css">
+    <script src="http://www.jq22.com/jquery/jquery-2.1.1.js"></script>
+    <script src="./js/send_email.ajax.js"></script>
 </head>
 <body>
 	<header>
@@ -15,7 +17,7 @@
 				<li><a href="#">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
-			<p><a href="">登录</a > | <a href="">注册</a></p>
+			<p><a href="login.php">登录</a > | <a href="register.php">注册</a></p>
 		    </div>
 			<div class="search-box">
 				<div class="search-logo"><a href="#"><img src="image/search.png"></a></div>
@@ -24,6 +26,7 @@
 			
 		</nav>
 	</header>
+	<input type="hidden" id="filename" value="sendEmailVerifyReg">
 	<form method="post" action="./doFile/doRegister.php">
 	<div class="content">
 		<section class="main-regin">
@@ -59,9 +62,11 @@
 
 			<div class="email-box">
 				<div class="email">邮箱:</div>
-				<input class="email-input" style="width:180px;height:30px;" " type="text" name="emailAdress"/>
+
+				<input class="email-input" id='email' style="width:180px;height:30px;" " type="text" name="emailAdress"/>
 				<div class="email-proving-button-box">
-					<a href="sentEmail.php" class="sent-email-code">发送验证码</a>
+					<a href="javascript:send_email()" class="register-button formBtn"> 发送验证码</a>
+
 				</div>
 			</div>
 

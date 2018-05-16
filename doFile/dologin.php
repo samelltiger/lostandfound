@@ -53,7 +53,7 @@ if($row){
 	else{
 		$_SESSION['username']=$row['uname'];
 		$_SESSION['password']=$row['pwd'];
-		echo "<script>alert('登录成功');location='../main.php'</script>";
+		echo "<script>alert('登录成功');location='../mainpage.php'</script>";
 	}
 
 }else{

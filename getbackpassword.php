@@ -5,6 +5,8 @@
 	<title></title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/getback-password.css">
+    <script src="http://www.jq22.com/jquery/jquery-2.1.1.js"></script>
+    <script src="./js/send_email.ajax.js"></script>
 </head>
 <body>
 	<header>
@@ -15,7 +17,7 @@
 				<li><a href="#">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
-			<p><a href="">登录</a > | <a href="">注册</a></p>
+			<p><a href="login.php">登录</a > | <a href="register.php">注册</a></p>
 		    </div>
 			<div class="search-box">
 				<div class="search-logo"><a href="#"><img src="image/search.png"></a></div>
@@ -24,7 +26,8 @@
 			
 		</nav>
 	</header>
-
+	<input type="hidden" id="filename" value="sendEmailVerifyForget">
+	<form action = "./doFile/doGetBackPwd.php"  method="post">
 	<div class="content">
 		<section class="main-regin">
 			 <div class="getback-title-box">
@@ -33,33 +36,33 @@
 
 			<div class="email-box">
 				<div class="email">邮箱:</div>
-				<input class="email-input" style="width:180px;height:40px;" " type="text" name="emali" value="    " />
+				<input class="email-input" style="width:180px;height:40px;" id="email" " type="text" name="email" />
 				<div class="email-proving-button-box">
-					<button class="email-proving-button" type="button">发送验证码</button>
+					<a href="javascript:send_email()" class="email-proving-button formBtn" >发送验证码</a>
 				</div>
 			</div>
 
 			<div class="email-proving-code-box">
 				<div class="email-proving-code">邮箱验证码:</div>
-				<input class="email-proving-code-input" style="width:300px;height:40px;"  type="text" name="emali" value="    " />
+				<input class="email-proving-code-input" style="width:300px;height:40px;"  type="text" name ="emailVerify" />
 			</div>
 
 			 <div class="xinpassword-box">
 				<div class="xinpassword">新密码:</div>
-				<input class="xinpassword-input" style="width:300px;height:40px;"  type="text" name="emali" value="    " />
+				<input class="xinpassword-input" style="width:300px;height:40px;"  type="password" name="newPwd" />
 			</div>
             
             <div class="sure-password-box">
 				<div class="sure-password">确认新密码:</div>
-				<input class="sure-password-input" style="width:300px;height:40px;"  type="text" name="emali" value="    " />
+				<input class="sure-password-input" style="width:300px;height:40px;"  type="password" name="surePwd" />
 			</div>
 
 			<div class="change-password">
-				 <button class="change-password-button" type="button">注册</button>
+				 <input  class="change-password-button" type="submit" value="确认提交">
 			</div>
 		</section>
 	</div>
-
+	</form>
 	<footer>
 		
 	</footer>

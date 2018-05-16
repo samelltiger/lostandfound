@@ -45,13 +45,14 @@
 				<div class="register-mima">
 				<div class="password-text">密码:</div>
 				<input class="password-box" style="width:300px;height:40px;" " type="password" name="password"  />
+				<div><a href="getbackpassword.php">忘记密码?</a></div>
 			</div>
 			<div class="register-proving">
 				<div class="register-proving">
 				<div class="proving-text">验证码:</div>
 				<input class="proving-box" style="width:150px;height:40px;" " type="text" name="emali" placeholder="" />
 				<div class="proving-image" >
-				<img src = "doFile/getVerify.php">	
+				<img src = "doFile/getVerify.php" onclick="javascript:this.src=this.src+'?time='+Math.random()";>	
 			
 				</div>
 			</div>
