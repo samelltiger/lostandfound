@@ -45,6 +45,7 @@
 				<div class="register-mima">
 				<div class="password-text">密码:</div>
 				<input class="password-box" style="width:300px;height:40px;" " type="password" name="password"  />
+				<div><a href="getbackpassword.php">忘记密码?</a></div>
 			</div>
 			<div class="register-proving">
 				<div class="register-proving">

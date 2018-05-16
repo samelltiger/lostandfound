@@ -70,6 +70,7 @@ $send_mail = "1393994876@qq.com";
  $error_info = '';
  if (!$mail->Send()) {
      $error_info = $mail->ErrorInfo;
+     // echo $error_info;die;
      $email_status = false;
      echo "发送失败";
  } else {

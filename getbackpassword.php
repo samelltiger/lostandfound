@@ -36,7 +36,7 @@
 
 			<div class="email-box">
 				<div class="email">邮箱:</div>
-				<input class="email-input" style="width:180px;height:40px;" id="email" " type="text"  />
+				<input class="email-input" style="width:180px;height:40px;" id="email" " type="text" name="email" />
 				<div class="email-proving-button-box">
 					<a href="javascript:send_email()" class="email-proving-button formBtn" >发送验证码</a>
 				</div>

@@ -17,7 +17,7 @@
 				<li><a href="#">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
-			<p><a href="">登录</a > | <a href="">注册</a></p>
+			<p><a href="login.php">登录</a > | <a href="register.php">注册</a></p>
 		    </div>
 			<div class="search-box">
 				<div class="search-logo"><a href="#"><img src="image/search.png"></a></div>
