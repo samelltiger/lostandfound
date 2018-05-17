@@ -96,6 +96,10 @@ p
         font-size: 12px;
         outline: none;
 }
+.content
+{
+
+}
 .main-regin
 {
 	widows: 90%;
@@ -108,13 +112,15 @@ p
 	width: 49%;
 	height:550px;
 	float:left;
+	margin-left:50px;
 }
 .right-regin
 {
 	background:#fff;
-	width:45%;
+	width: 42%;
 	height:550px;
 	float:right;
+	
 }
 .image-border
 {
@@ -132,103 +138,107 @@ p
 	margin-left: 130px;
 }
 
-.item-descripption
+.sort
 {
-	margin-top:40px;
-	width: 100%;
-	height:86px; 
+	margin-top:60px;
+	width:100%;
+	height:40px; 
+	background: #fff;
+
 
 }
-.item-title
+.select-style
 {
-	width: 80px;
+             border:1px solid; 
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+            /*     //盒子阴影修饰作用,自己随意 */
+  box-shadow: 0 0 5px #ccc;
+    position: relative;
+    float:right;
+    margin-right: 188px;
+ 
 }
-.item-input
+select{
+/*      //清除select的边框样式 */
+    border: none;
+  /*   //清除select聚焦时候的边框颜色 */
+    outline: none;
+/*     //将select的宽高等于div的宽高 */
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+/*        //隐藏select的下拉图标 */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+   /*  //通过padding-left的值让文字居中 */
+    padding-left: 20px;
+}
+/*      //使用伪类给select添加自己想用的图标 */
+.select-style:after{
+    content: "";
+    width: 14px;
+    height: 8px;
+    background: url(img/xiala.png) no-repeat center;
+/*     //通过定位将图标放在合适的位置 */
+    position: absolute;
+    right: 20px;
+    top: 45%;
+/*     //给自定义的图标实现点击下来功能 */
+    pointer-events: none;
+}
+/* select::-ms-expand { display: none; } */
+.sort-title
+{   
+
+	display: inline-block;
+	width: 50px;
+	height:20px;
+	padding-top: 5px;
+	padding-left: 40px;
+
+}
+.long-text
 {
-	margin-top: 5px;
-	outline: none;
-	border: 1px solid;
+	border:1px solid;
 }
 
-.contact
+.title-box
 {
-	width: 100%;
-	height:90px; 
-	margin-top: 40px;
-}
-.contact-person
-{
-	width: 50%;
-	height: inherit;
+	width:100%;
+	height:40px;
 	background: #fff;
-	float:left;
 }
-.contact-person-input
+.title-text
 {
-	margin-right:48px;
-	margin-top: 5px;
-	border: 1px solid;
+   display: inline-block;
+	width: 50px;
+	height:20px;
+	padding-top: 5px;
+	padding-left: 40px;
 }
-.contact-way
+.title-text-input
 {
-	width: 42%;
-	height: inherit;
-	background: #fff;
-	float: right;
-}
-.contact-way-input
-{
-	float: left;
-	margin-top: 5px;
-	border: 1px solid;
-
+	margin-right:86px;
+	border:1px solid;
 }
 
-.main-item
-{
-	width: 100%;
-	height:90px; 
-     margin-top: 40px;
-}
-.item-sort
-{
-	width: 50%;
-	height: inherit;
-	background: #fff;
-	float:left;
-}
-.item-sort-input
-{
-	margin-right:48px;
-	margin-top: 5px;
-	border: 1px solid;
-}
-.pickup-time
-{
-	width: 42%;
-	height: inherit;
-	background: #fff;
-	float: right;
-}
-.pickup-time-input
-{
-	float: left;
-	margin-top: 5px;
-	border: 1px solid;
-}
 
 .updata-image
 {
 	width: 100%;
 	height:40px; 
-     margin-top: 40px;
+    background: #fff;
 }
 .updata-image-title
 {
-	width: 50%;
-	height: inherit;
-	background: #fff;
-	float:left;
+   display: inline-block;
+	width:70px;
+	height:20px;
+	padding-top: 5px;
+	padding-left: 10px;
 }
 .updata-image-text
 {
@@ -238,8 +248,7 @@ p
 }
 .updata-image-title-input
 {
-	margin-right:50px;
-	margin-top: 5px;
+	margin-right: 70px;
 }
 
 .file {
@@ -255,7 +264,7 @@ p
     text-indent: 0;
     line-height: 20px;
     margin-top: 0px;
-    margin-right:50px;
+    margin-right:250px;
     float: right;
 
 }
@@ -279,6 +288,98 @@ p
 	border: 1px solid;
 	margin-top: 10px;
 }
+.item-description-box
+{
+	width:100%;
+	height:70px;
+	background: #fff;
+}
+.item-description-title
+{
+   display: inline-block;
+	width:70px;
+	height:20px;
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.long-text
+{
+	font-size: 15px;
+	margin-left:10px;
+}
+.contact-way-box
+{
+	width: 100%;
+	height: 150px;
+	background: #fff;
+	margin-top: 30px;
+}
+.contact-way
+{
+ 
+}
+.phone
+{   
+	
+	width: 100%;
+	height: 30px;
+	margin-top: 10px;
+}
+.phone-title
+{
+	display: inline-block;
+	padding-top: 5px;
+	padding-left: 40px;
+}
+.phone-title-box
+{
+   margin-right: 190px;
+  border:1px solid;
+}
+
+.QQ
+{   
+	
+	width: 100%;
+	height: 30px;
+	margin-top: 10px;
+}
+.QQ-title
+{
+	display: inline-block;
+	padding-top: 5px;
+	padding-left: 45px;
+}
+.QQ-title-box
+{
+   margin-right: 190px;
+   border:1px solid;
+}
+
+.wechat
+{   
+	
+	width: 100%;
+	height: 30px;
+	margin-top: 10px;
+}
+.wechat-title
+{
+	display: inline-block;
+	padding-top: 5px;
+	padding-left: 40px;
+}
+.wechat-title-box
+{
+   margin-right: 190px;
+   border:1px solid;
+}
+
+
+
+
+
 .updata
 {
 	 width: 100%;
@@ -287,13 +388,14 @@ p
 }
 .updata-button
 {
-	width:100%;
+	width:260px;
 	height: 40px;
 	background: #000;
 	border-radius: 5px;
 	color: #fff;
 	text-align: center;
 	border:none;
-   
     margin-top: 15px;
+    float: left;
+    margin-left: 85px;
 }

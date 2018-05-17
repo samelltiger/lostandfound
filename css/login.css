@@ -96,6 +96,12 @@ p
         font-size: 12px;
         outline: none;
 }
+.content
+{
+	
+	
+
+}
 .black-section
 {
 	margin: 0 auto;
@@ -143,9 +149,10 @@ h3
 }
 .register-titel
 {
-    text-align: center;
+  
     position: relative;
     padding-top: 70px;
+    padding-left: 200px;
 }
 .register-email
 {
@@ -163,7 +170,7 @@ h3
 .register-proving
 {
 width: 100%;
-    height: 100px;
+    height: 80px;
     background: #fff;
 }
 .email-text
@@ -192,14 +199,14 @@ width: 100%;
 	font-size:20px;
 	height:25px;
 	position:relative;	
-	padding-top:35px;
+	padding-top:15px;
 	padding-left:30px;
 
 }
 .proving-box
 {
 	position:relative;
-	top:30px;
+	top:10px;
 	right:160px;
 	float:right;
 	border: 1px solid;
@@ -212,7 +219,7 @@ width: 100%;
     float: right;
 	border: 1px solid;
 	margin-right:-140px;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .password-text
 {
@@ -223,6 +230,19 @@ width: 100%;
 	position:relative;	
 	padding-top:25px;
 	padding-left:50px;
+}
+.forget-password
+{
+	float: right;
+	padding-top: 10px;
+	text-decoration: none;
+}
+.forget-password-text
+{
+	text-decoration: none;
+	display: inline-block;
+	color: #000;
+	margin-right: 10px;
 }
 .password-box
 {
@@ -236,7 +256,7 @@ width: 100%;
 .register-mima
 {
 	 width: 100%;
-    height: 80px;
+    height: 90px;
     background: #fff;
 }
 .button-box
@@ -255,7 +275,7 @@ width: 100%;
     border:none;
     width:85px;
     height:35px;
-    margin-left:110px;
+    margin-left:108px;
   /*   margin-top: 20px; */
      color: 	#fff;
     border-radius: 5px;     /* 圆角 */

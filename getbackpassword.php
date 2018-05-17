@@ -11,10 +11,10 @@
 <body>
 	<header>
 		<nav>
-			<div class="logo"><a href="#"><img src="image/logo.png"></a></div>
+			<div class="logo"><a href="mainpage.php"><img src="image/logo.png"></a></div>
 			<ul>
-				<li><a href="#">拾物</a></li>
-				<li><a href="#">寻物启事</a></li>
+				<li><a href="pickup.php">拾物</a></li>
+				<li><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
 			<p><a href="login.php">登录</a > | <a href="register.php">注册</a></p>

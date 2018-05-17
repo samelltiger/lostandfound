@@ -9,10 +9,10 @@
 <body>
 	<header>
 		<nav>
-			<div class="logo"><a href="#"><img src="image\logo.png"></a></div>
+			<div class="logo"><a href="mainpage.php"><img src="image\logo.png"></a></div>
 			<ul>
-				<li><a href="#">拾物</a></li>
-				<li><a href="#">寻物启事</a></li>
+				<li><a href="pickup.php">拾物</a></li>
+				<li><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
 			<p><a href="login.php">登录</a > | <a href="register.php">注册</a></p>
@@ -27,7 +27,7 @@
 
 	<div class="content">
 	<section class="black-section">
-		<div class="register-left">
+		<div class="register-left">	
 			<div class="phone-image">
 				 <img src="image\电脑手机.png" alt="">
 			</div>
@@ -45,7 +45,7 @@
 				<div class="register-mima">
 				<div class="password-text">密码:</div>
 				<input class="password-box" style="width:300px;height:40px;" " type="password" name="password"  />
-				<div><a href="getbackpassword.php">忘记密码?</a></div>
+				<span class="forget-password"><a href="getbackpassword.php" class="forget-password-text">忘记密码?</a></span>
 			</div>
 			<div class="register-proving">
 				<div class="register-proving">
