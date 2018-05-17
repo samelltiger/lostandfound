@@ -55,17 +55,17 @@
 			</div>
 			<div id="add" class="menu-total">
 			<ul class="menu-ul">
-			<li class="menu-li-1"><a class="menu-a" href="">手机</a></li>  
-			<li class="menu-li"><a class="menu-a" href="">钱包</a></li>
-			<li class="menu-li"><a class="menu-a" href="">卡片</a></li>
-			<li class="menu-li"><a class="menu-a" href="">文件</a></li>
-			<li class="menu-li"><a class="menu-a" href="">文具</a></li>
-			<li class="menu-li"><a class="menu-a" href="">眼镜</a></li>
-			<li class="menu-li"><a class="menu-a" href="">证件</a></li>
-			<li class="menu-li"><a class="menu-a" href="">钥匙</a></li>
-			<li class="menu-li"><a class="menu-a" href="">宠物</a></li>
-			<li class="menu-li"><a class="menu-a" href="">手包</a></li>
-			<li class="menu-li-2"><a class="menu-a" href="">其他</a></li>
+			<li class="menu-li-1"><a class="menu-a" href="demo.php?type=0" target="_blank" >手机</a></li>  
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=purse&type = 1">钱包</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=cards">卡片</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=file">文件</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=wenju">文具</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=glass">眼镜</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=papers">证件</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=keys">钥匙</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=pet">宠物</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=handbag">手包</a></li>
+			<li class="menu-li-2"><a class="menu-a" href="demo.php?id=others">其他</a></li>
 			</ul>
 			</div>
 			</section>
