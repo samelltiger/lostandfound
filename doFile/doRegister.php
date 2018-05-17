@@ -2,8 +2,9 @@
 require_once '../include.php';
 
 header("Content-type:text/html;charset=utf-8");
-$link = mysqli_connect('localhost','root','','lostfound');
-mysqli_set_charset($link,'utf8');
+// $link = mysqli_connect('localhost','root','','lostfound');
+// mysqli_set_charset($link,'utf8');
+$link = connect();
 $username = $_POST['username'];
 $password = md5($_POST['password']);
 $surePwd =md5($_POST['surePwd']);

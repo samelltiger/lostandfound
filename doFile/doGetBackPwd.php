@@ -2,8 +2,9 @@
 
 require_once '../include.php';
 header("Content-type:text/html;charset=utf-8");
-$link = mysqli_connect('localhost','root','','lostfound');
-mysqli_set_charset($link,'utf8');
+// $link = mysqli_connect('localhost','root','','lostfound');
+// mysqli_set_charset($link,'utf8');
+$link = connect();
 $newPwd = isset($_POST['newPwd']) ? md5($_POST['newPwd']):null;
 $surePwd =isset($_POST['surePwd']) ? md5($_POST['surePwd']):null;
 $emailVerify = isset($_POST['emailVerify']) ? $_POST['emailVerify']:null;
