@@ -56,7 +56,7 @@
 				<span class="proving-text">验证码:</span>
 
 
-				<input class="proving-box" style="width:150px;height:40px;" " type="text" name="verify" placeholder="    请输入验证码" />
+				<input class="proving-box" style="width:100px;height:32px;" " type="text" name="verify" placeholder="" />
 
 
 				<div class="proving-image" >
