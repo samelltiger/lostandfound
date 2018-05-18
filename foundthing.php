@@ -15,7 +15,22 @@
 				<li class="li1"><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
-			<p><a href="">登录</a > | <a href="">注册</a></p>
+			<?php
+					session_start();
+					header('Content-type:text/html;charset=utf-8');    
+					if(isset($_SESSION['username']) ){
+				?>
+				<p>
+					<a href="login.php"> 您好！<?php echo $_SESSION['username']; ?>,欢迎回来！</a >
+					<a href='./doFile/logout.php'>注销</a></p>
+
+				<?php
+					}  else {
+				?>
+				<p><a href="login.php">登录</a > | <a href="register.php">注册</a></p>
+				<?php
+					}
+				?>
 		    </div>
 			<div class="search-box">
 				<div class="search-logo"><a href="#"><img src="image\search.png"></a></div>

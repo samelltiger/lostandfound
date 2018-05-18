@@ -18,33 +18,33 @@
 			</ul>
 			<div class="login-text">
 				<?php
-					session_start();
-					header('Content-type:text/html;charset=utf-8');    
-					if(isset($_SESSION['username']) ){
-				?>
-				<p>
-					<a href="login.php"> 您好！<?php echo $_SESSION['username']; ?>,欢迎回来！</a >
-					<a href='./doFile/logout.php'>注销</a></p>
+				require_once './include.php';
+				header('Content-type:text/html;charset=utf-8');    
+				if(isset($_SESSION['username']) ){
+					?>
+					<p>
+						<a href="login.php"> 您好！<?php echo $_SESSION['username']; ?>,欢迎回来！</a >
+						<a href='./doFile/logout.php'>注销</a></p>
 
-				<?php
+						<?php
 					}  else {
-				?>
-				<p><a href="login.php">登录</a > | <a href="register.php">注册</a></p>
-				<?php
+						?>
+						<p><a href="login.php">登录</a > | <a href="register.php">注册</a></p>
+						<?php
 					}
-				?>
-			</div>
+					?>
+				</div>
 
 
-			
 
-			<div class="search-box">
-			<div class="search-logo"><a href="#"><img src="image\search.png"></a></div>
-			<input type="text" name="search" placeholder="    输入特征搜索">
-			</div>
-			
+
+				<div class="search-box">
+					<div class="search-logo"><a href="#"><img src="image\search.png"></a></div>
+					<input type="text" name="search" placeholder="    输入特征搜索">
+				</div>
+
 			</nav>
-			</header>
+		</header>
 
 			<div class="main-1">
 			   <div class="main-2">
@@ -65,11 +65,14 @@
 			<li class="menu-li-2"><a class="menu-a" href="demo.php?id=others">其他</a></li>
 			</ul>
 			</div>
+
 			</section>
 
 			<section class="section2">
-			<div class="big-box1">
+	
+						 <div class="big-box1">
 			<div class="box1"><img src="image\10.png" alt=""></div>
+
 			<div class="box2"><img src="image\2.png" alt=""></div>
 			<div class="box4"><img src="image\3.png" alt=""></div>
 
@@ -84,27 +87,83 @@
 			<div class="big-box4">
 			<div class="box7"><img src="image\12.png" alt=""></div>
 			<div class="box8"><img src="image\9.png" alt=""></div>
-			<div class="box9"><img src="image\11.png" alt=""></div
-			</div>	
-			</section>
+			<div class="box9"><img src="image\11.png" alt=""></div>	
+					</section>
 
-			<section class="section3">
-			<div class="down-image"><img src="image\down.png" alt=""></div>
-			</section>
+	<section class="section3">
+		<div class="down-image"><img src="image\down.png" alt=""></div>
+	</section>
 
-			<section class="section4">
-			<div class="section4-box1" ></div>
-			<div class="section4-box1" ></div>
-			<div class="section4-box1" ></div>
-			<div class="section4-box1" ></div>
-			<div class="section4-box2" ></div>
+	<section class="section4">
+					<?php
 
-			
-			</section>
-			   </div>
-			</div>
+				if (isset($_GET['type'])) {
 
-			<footer>
+					$link = connect();
 
-			</footer>
-			</body>
+					$type = $_GET['type'];
+
+					$sql_select = "select * from lost_found where  type=? ";
+
+					$stmt = mysqli_prepare($link,$sql_select);
+
+					mysqli_stmt_bind_param($stmt,'s',$type);
+
+					mysqli_execute($stmt);
+
+					$result = mysqli_stmt_get_result($stmt);
+
+					$row = mysqli_fetch_all($result,MYSQL_ASSOC);
+
+					// var_dump($arr);
+					
+					// while($i<count($arr)){
+					    
+						
+				}else{
+					$link = connect();
+
+					$sql_select = "select * from lost_found";
+
+					mysqli_query($link,$sql_select);
+
+					$result = mysqli_query($link,$sql_select);
+
+					$row = mysqli_fetch_all($result,MYSQL_ASSOC);
+
+					 // var_dump($arr);
+				}
+				?>
+
+		<div class="section4-box1" ></div>
+		<div class="section4-box1" ></div>
+		<div class="section4-box1" ></div>
+		<div class="section4-box1" ></div>
+		<div class="section4-box2" ></div>
+
+		<div class="section4-box1" ></div>
+		<div class="section4-box1" ></div>
+		<div class="section4-box1" ></div>
+		<div class="section4-box1" ></div>
+		<div class="section4-box2" ></div>
+
+		<div class="section4-box1" ></div>
+		<div class="section4-box1" ></div>
+		<div class="section4-box1" ></div>
+		<div class="section4-box1" ></div>
+		<div class="section4-box2" ></div>
+
+		<div class="section4-box1" ></div>
+		<div class="section4-box1" ></div>
+		<div class="section4-box1" ></div>
+		<div class="section4-box1" ></div>
+		<div class="section4-box2" ></div>
+	</section>
+</div>
+
+<footer>
+
+</footer>
+</body>
+
+</html>

@@ -55,7 +55,9 @@
 				<div class="register-proving">
 				<span class="proving-text">验证码:</span>
 
-				<input class="proving-box" style="width:100px;height:30px;" " type="text" name="emali" placeholder="" />
+
+				<input class="proving-box" style="width:150px;height:40px;" " type="text" name="verify" placeholder="    请输入验证码" />
+
 
 				<div class="proving-image" >
 				<img src = "doFile/getVerify.php" onclick="javascript:this.src=this.src+'?time='+Math.random()";>	

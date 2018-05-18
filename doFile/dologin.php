@@ -16,7 +16,7 @@ if($password==''){
 	echo "<script>alert('请输入密码');location='" . $_SERVER['HTTP_REFERER'] . "'</script>";
 	exit;
 }
-if ($verify == $_SESSION['verify']) {
+if ($verify != $_SESSION['verify'] ) {
 	echo"<script>alert('您的验证码错误,请重新输入');location='".$_SERVER['HTTP_REFERER']. "'</script>";
 	exit;
 }
@@ -54,6 +54,8 @@ if($row){
 	else{
 		$_SESSION['username']=$row['uname'];
 		$_SESSION['password']=$row['pwd'];
+		$_SESSION['uid']=$row['uid'];
+		
 		// $_SESSION['username'] = $_POST['username'];
 		echo "<script>alert('登录成功');location='../mainpage.php'</script>";
 	}
