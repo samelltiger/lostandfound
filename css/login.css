@@ -99,200 +99,261 @@ p
 .content
 {
 	
-	
+	 background:  #b3b1b1;	
 
 }
 .black-section
 {
 	margin: 0 auto;
-    height:700px;
+    height:450px;
     width: 82%;
-    background:#fff;
+    background: #b3b1b1;
 }
 .register-left
 {
 	width: 50%;
-	height: 600px;
+	height: 450px;
 	float: left;
-	background: #fff;
+	 background:  #b3b1b1;
 }
 .register-right
 {
-	width: 50%;
+	width: 40%;
 	height:400px;
 	float:right;
-	background: #fff;
+	 background:  #b3b1b1;
 
 }
 .phone-image
 {
 	width:100%;
-	height:50%;
-
+	height:300px;
+    background: #fff;
 	position: relative;
-	margin-top:110px;
+	margin-top:70px;
+	border:1px solid #fff;
+	box-shadow: 0 0 50px #000;
+	border-radius:10px;
+}
+.image-box1
+{
+	width: 90%;
+	height: 270px;
+	margin-top:13px;
+	margin-left: 20px;
+
 }
 .register-titel-box
 {
   width:100%;
-  height: 112.5px;
-  background: #fff;
+  height: 50px;
+ 
 }
-h1
+h2
 {
 	padding: 0;
 	margin: 0;
+	text-align: center;
 }
 h3
 {
 
 }
+.tianchong1
+{
+	width: 100%;
+	height: 70px;
+	background:  #b3b1b1;
+}
 .register-titel
 {
   
     position: relative;
-    padding-top: 70px;
-    padding-left: 200px;
+    top: 10px;
+    color: #fff;
+
+
+  
 }
 .register-email
 {
     width: 100%;
-    height: 100px;
-    background: #fff;
+    height: 50px;
+  background: #2b292b;
 
 }
 .register-password
 {
    width: 100%;
-    height: 100px;
-    background: #fff;
+    height: 50px;
+  background: #2b292b;
 }
 .register-proving
 {
 width: 100%;
-    height: 80px;
-    background: #fff;
+    height: 50px;
+     background: #2b292b;
 }
 .email-text
 {
 	display:inline-block;
-    width: 50px;
 	font-size:20px;
 	height:25px;
 	position:relative;	
-	padding-top:35px;
-	padding-left:50px;
+	padding-top:15px;
+	padding-left:45px;
+	font-size: 15px;
+	color: #fff;
 
 }
 .email-box
 {
 	position:relative;
-	top:30px;
-	right:10px;
+	margin-right:40px; 
+	margin-top: 10px;
 	float:right;
 	border: 1px solid;
+	border-radius: 5px;
 }
 .proving-text
 {
 	display:inline-block;
-    width: 80px;
+    
 	font-size:20px;
 	height:25px;
 	position:relative;	
-	padding-top:15px;
+	padding-top:10px;
 	padding-left:30px;
-
+	font-size: 15px;
+	color: #fff;
 }
 .proving-box
 {
 	position:relative;
-	top:10px;
-	right:160px;
+	right:140px; 
+	margin-top: 10px;
 	float:right;
 	border: 1px solid;
+	border-radius: 5px;
 }
 .proving-image
 {
-	height:40px;
-	width:120px;
+	height:30px;
+	width:80px;
 	background:#fff;
     float: right;
 	border: 1px solid;
-	margin-right:-140px;
+	margin-right:-63px;
 	margin-top: 10px;
 }
 .password-text
 {
-	display:inline-block;
-    width: 50px;
+		display:inline-block;
+
 	font-size:20px;
 	height:25px;
 	position:relative;	
-	padding-top:25px;
-	padding-left:50px;
+	padding-top:15px;
+	padding-left:45px;
+	font-size: 15px;
+	color: #fff;
 }
 .forget-password
 {
 	float: right;
-	padding-top: 10px;
 	text-decoration: none;
+	height: 32px;
+	width:35px;
+	font-size: 10px;
+
 }
 .forget-password-text
 {
 	text-decoration: none;
 	display: inline-block;
-	color: #000;
 	margin-right: 10px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	position: relative;
+	right:30px;
+	top: 10px;
+	text-align: center;
+	color: #fff;
+	background: #7b7b7b;
+
+
 }
 .password-box
 {
 	position:relative;
-	top:20px;
-	right:10px;
+	right:45px; 
+	margin-top: 10px;
 	float:right;
 	border: 1px solid;
+	border-radius: 5px;
 }
 
 .register-mima
 {
 	 width: 100%;
-    height: 90px;
-    background: #fff;
-}
+    height: 50px;
+      background: #2b292b;
+  }
 .button-box
 {
 	 width: 100%;
     height: 100px;
-    background: #fff;
-
+    
 }
 .register-button
 {
 	display: inline-block;
-    background: #000;
+    background:#7b7b7b;
     line-height: 35px;
     text-decoration: none;
     border:none;
-    width:85px;
+    width:50px;
     height:35px;
-    margin-left:108px;
+    margin-left:93px;
   /*   margin-top: 20px; */
      color: 	#fff;
     border-radius: 5px;     /* 圆角 */
     text-align: center;
     float: left;
     font-size: 15px;
+    margin-top: 10px;
 
 }
 .login-button
 {
-    background: #000;
+    background: #7b7b7b;
     border: none;
-    width:205px;
+    width:145px;
     height:35px;
     margin-left: 9px;
     color: #fff;
    border-radius: 5px; 
    float: left; 
    font-size: 15px;
+   margin-top: 10px;
 }
+.main-style
+{
+	border:1px solid;
+	border-radius:10px;
+	 background: #2b292b;
+	box-shadow: 0 0 50px #000;
+}
+input:-webkit-autofill, 
+ textarea:-webkit-autofill, 
+ select:-webkit-autofill { 
+       -webkit-box-shadow: 0 0 0 1000px white inset; 
+}
+ input[type=text]:focus, input[type=password]:focus, textarea:focus {
+      -webkit-box-shadow: 0 0 0 1000px white inset; 
+}
+
+作者：Elena
+链接：https://www.zhihu.com/question/48914902/answer/113296020
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
