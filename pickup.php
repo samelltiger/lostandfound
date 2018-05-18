@@ -11,7 +11,7 @@
 		<nav>
 			<div class="logo"><a href="mainpage.php"><img src="image/logo.png"></a></div>
 			<ul>
-				<li><a href="pickup.php">拾物</a></li>
+				<li class="li1"><a href="pickup.php">&nbsp;&nbsp;&nbsp;拾物</a></li>
 				<li><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
@@ -30,11 +30,12 @@
 				<div class="image-border">
 					<div class="image">
 				       <img src="image/lostandfound.png" alt="">
-				    </div>
+			    </div>
 				</div>
 			</div>
 
 			<div class="right-regin">
+			  <div class="border-1">	
 				<div class="sort">
 					<div class="sort-title">类型：</div>
 					   <div class="select-style">
@@ -70,7 +71,7 @@
                 </div>
 
                 <div class="contact-way-box">
-                	<div class="contact-way">联系方式(至少填一种):</div>
+                	<div class="contact-way">&nbsp;&nbsp;联系方式(至少填一种):</div>
                 	   <div class="phone">
                 		  <span class="phone-title">手机:</span>
                 		  <input class="phone-title-box" style="width:150px;height:30px;" " type="text" name=""/>
@@ -90,6 +91,7 @@
 				       <input type="submit" name="提交" class="updata-button" >
 			       </div>
                 </div>
+               </div> 
 		</section>
 	</div>
 

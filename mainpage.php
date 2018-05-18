@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title></title>
 	<link rel="stylesheet" href="./css/normalize.css">
-	<link rel="stylesheet" href="./css/mainpage.css">
+	<link rel="stylesheet" href="./css/mainpage2.css">
 	<script type="text/javascript" src="/js/mainpage.js"></script>
 	<link rel="stylesheet" type="text/css" href="/css/zzsc-demo.css">
 </head>
@@ -13,7 +13,7 @@
 		<nav>
 			<div class="logo"><a href="mainpage.php"><img src="image\logo.png"></a></div>
 			<ul>
-				<li class="title-li"><a href="pickup.php">拾物</a></li>
+				<li class="title-li"><a href="pickup.php">&nbsp;&nbsp;&nbsp;拾物</a></li>
 				<li class="title-li"><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
@@ -46,13 +46,10 @@
 			</nav>
 			</header>
 
-			<div>
+			<div class="main-1">
+			   <div class="main-2">
+			   	   <div class="tianchong1"></div>
 			<section  class="menu">
-			<div class="menu-position">
-			<div class="hr1"></div>
-			<div class="menu-text"><a class="sort-memu" href="#" id="mysteve" ">类型</a><div class="menu-image"><img src="image\menu.png" alt=""></div></div>
-			<div class="hr1"></div>
-			</div>
 			<div id="add" class="menu-total">
 			<ul class="menu-ul">
 			<li class="menu-li-1"><a class="menu-a" href="demo.php?type=0" target="_blank" >手机</a></li>  
@@ -73,15 +70,6 @@
 			<section class="section2">
 			<div class="big-box1">
 			<div class="box1"><img src="image\10.png" alt=""></div>
-			<!-- <div class="box1">
-			<figure class="imghvr-flip-vert"><img src="image\10.png" alt=" example-image">
-			<figcaption>
-			<h3>Hello World</h3>
-			<p>Life is too important to be taken seriously!</p>
-			</figcaption><a href="javascript:;"></a>
-			</figure>
-			</div> -->
-			<!--  <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-vert</textarea> -->
 			<div class="box2"><img src="image\2.png" alt=""></div>
 			<div class="box4"><img src="image\3.png" alt=""></div>
 
@@ -111,24 +99,9 @@
 			<div class="section4-box1" ></div>
 			<div class="section4-box2" ></div>
 
-			<div class="section4-box1" ></div>
-			<div class="section4-box1" ></div>
-			<div class="section4-box1" ></div>
-			<div class="section4-box1" ></div>
-			<div class="section4-box2" ></div>
-
-			<div class="section4-box1" ></div>
-			<div class="section4-box1" ></div>
-			<div class="section4-box1" ></div>
-			<div class="section4-box1" ></div>
-			<div class="section4-box2" ></div>
-
-			<div class="section4-box1" ></div>
-			<div class="section4-box1" ></div>
-			<div class="section4-box1" ></div>
-			<div class="section4-box1" ></div>
-			<div class="section4-box2" ></div>
+			
 			</section>
+			   </div>
 			</div>
 
 			<footer>

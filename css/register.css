@@ -3,6 +3,15 @@ body
 	width: 1024px;
 	margin:0px auto;
 }
+input:-webkit-autofill, 
+ textarea:-webkit-autofill, 
+ select:-webkit-autofill { 
+       -webkit-box-shadow: 0 0 0 1000px white inset; 
+}
+ input[type=text]:focus, input[type=password]:focus, textarea:focus {
+      -webkit-box-shadow: 0 0 0 1000px white inset; 
+}
+
 nav
 {
 	height: 130px;
@@ -96,20 +105,30 @@ p
         font-size: 12px;
         outline: none;
 }
+.content
+{
+	background: #b3b1b1;
+}
 .main-regin
 {
-	width:42%;
+	width:54%;
 	margin:0 auto;
-	background: #fff;
-	height:700px;
+	background: #b3b1b1;
+	height:550px;
+}
+.tianchong1
+{
+	height: 30px;
+	width:100%;
+	background: #b3b1b1;
 }
 .register-title-box
 {
-	background: #fff;
+	
 	width: 100%;
-	height:80px;
+	height:40px;
 }
-h1
+h2
 {
 	margin: 0px;
 	padding: 0px;
@@ -122,16 +141,17 @@ margin: 0px;
 .register-title
 {
 	text-align: center;
-	padding-top:30px;
+	padding-top:10px;
 	position: relative;
-	padding-left: 60px;
+	color: #fff;
+	
 
 }
 .user-name-box
 {
 	 width: 100%;
     height: 50px;
-    background: #fff;
+    background: #2b292b
 }
 .user-name
 {
@@ -141,23 +161,25 @@ margin: 0px;
 	height:25px;
 	position:relative;	
 	padding-top:20px;
-	padding-left:60px;
+	padding-left:137px;
+	color: #fff;
 
 }
 .user-name-input
 {
 	position:relative;
 	top:15px;
-	right:10px;
+	right:160px;
 	float:right;
 	border: 1px solid;
+	border-radius: 5px;
 }
 
 .school-name-box
 {
 	 width: 100%;
     height: 50px;
-    background: #fff;
+   background: #2b292b
 }
 .select-style
 {
@@ -170,7 +192,7 @@ margin: 0px;
     position: relative;
     float:right;
     margin-top: 15px;
-    margin-right: 163px;
+    margin-right: 210px;
 }
 select{
 /*      //清除select的边框样式 */
@@ -211,7 +233,8 @@ select{
 	height:25px;
 	position:relative;	
 	padding-top:20px;
-	padding-left:75px;
+	padding-left:150px;
+	color: #fff;
 
 }
 .school-name-input
@@ -226,7 +249,7 @@ select{
 {
 	 width: 100%;
     height: 50px;
-    background: #fff;
+    background: #2b292b
 }
 .password
 {
@@ -236,23 +259,25 @@ select{
 	height:25px;
 	position:relative;	
 	padding-top:20px;
-	padding-left:75px;
+	padding-left:150px;
+	color: #fff;
 
 }
 .password-input
 {
 	position:relative;
 	top:15px;
-	right:10px;
+	right:160px;
 	float:right;
 	border: 1px solid;
+	border-radius: 5px;
 }
 
 .password-sure-box
 {
 	 width: 100%;
     height: 50px;
-    background: #fff;
+   background: #2b292b
 }
 .password-sure
 {
@@ -262,23 +287,25 @@ select{
 	height:25px;
 	position:relative;	
 	padding-top:20px;
-	padding-left:45px;
+	padding-left:120px;
+	color: #fff;
 
 }
 .password-sure-input
 {
 	position:relative;
 	top:15px;
-	right:10px;
+	right:160px;
 	float:right;
 	border: 1px solid;
+	border-radius: 5px;
 }
 
 .email-box
 {
 	 width: 100%;
     height: 50px;
-    background: #fff;
+    background: #2b292b
 }
 .email
 {
@@ -288,16 +315,18 @@ select{
 	height:25px;
 	position:relative;	
 	padding-top:20px;
-	padding-left:75px;
+	padding-left:150px;
+	color: #fff;
 
 }
 .email-input
 {
 	position:relative;
 	top:15px;
-	right:130px;
+	right:160px;
 	float:right;
 	border: 1px solid;
+	border-radius: 5px;
 }
 .email-proving-button
 {
@@ -308,7 +337,7 @@ select{
 	width: 100px;
     border:0px;
 	background: #999;
-	color: #fff;
+	background: #2b292b
 	position: relative;
 	text-decoration: none;	
 }
@@ -318,7 +347,7 @@ select{
 	width: 100px;
 	float: right;
 	padding-top:15px;
-	margin-right: -170px;
+	margin-right: -150px;
 }
 .sent-email-code
 {
@@ -333,13 +362,14 @@ select{
 	text-align: center;
 	margin-top: 0px;
 	float: right;
+	color: #fff;
 }
 
 .email-proving-code-box
 {
 	 width: 100%;
     height: 50px;
-    background: #fff;
+   background: #2b292b
 }
 .email-proving-code
 {
@@ -349,7 +379,8 @@ select{
 	height:25px;
 	position:relative;	
 	padding-top:20px;
-	padding-left:30px;
+	padding-left:105px;
+	color: #fff;
 
 }
 .email-proving-code-input
@@ -359,14 +390,19 @@ select{
 	border:1px solid #000;
 	float: right;
 		top:15px;
-	right:10px;
+	right:160px;
+	border-radius: 5px;
 }
-
+a
+{
+	text-decoration: none;
+	color: #fff;	
+}
 .proving-code-box
 {
 	 width: 100%;
     height: 50px;
-    background: #fff;
+  background: #2b292b
 }
 .proving-code
 {
@@ -376,43 +412,53 @@ select{
 	height:25px;
 	position:relative;	
 	padding-top:20px;
-	padding-left:60px;
+	padding-left:135px;
+	color: #fff;
 
 }
 .proving-code-input
 {
 	position:relative;
 	top:15px;
-	right:130px;
+	right:260px;
 	float:right;
 	border: 1px solid;
+	border-radius: 5px;
 }
 .proving-image
 {
 	height:32px;
-	width:100px;
-	background:#fff;
+	width:90px;
+	background: #2b292b;
     float: right;
 	border: 1px solid;
-	margin-right:-170px;
+	margin-right:58px;
 	margin-top: 15px;
+	border-radius: 5px;
 }
 
 .register
 {
 	 width: 100%;
     height: 70px;
-    background: #fff;
+ 
 }
 .register-button
 {
-	width:300px;
+	width:203px;
 	height: 40px;
 	background: #000;
 	border-radius: 5px;
 	color: #fff;
 	text-align: center;
 	border:none;
-    margin-right: 10px;
+    margin-right: 160px;
     margin-top:15px;
+}
+.main-style
+{
+	border:1px solid;
+	border-radius:10px;
+	 background: #2b292b;
+	box-shadow: 0 0 50px #000;
 }

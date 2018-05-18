@@ -1,79 +1,84 @@
 body
 {
-	width: 1024px;
-	margin:0px auto;
+  width: 1024px;
+  margin:0px auto;
+
 }
 nav
 {
-	height: 130px;
-	background:#000;
+   height: 130px;
+  background:#000;
 }
 p,p a
 {
-	margin: 0;
-	padding: 0;
-	color: #fff;
-	font-size: 15px;
-	text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
 }
 img
-{
-	width: 100%;
+{ 
+  width: 100%;
     height: 100%;
+}
+.li1
+{
+  background: #666;
 }
 .logo
 {
-	height:130px;
-	width: 200px;
-	margin-left: 70px;
-	float: left;
+  height:130px;
+  width: 200px;
+  margin-left: 70px;
+  float: left;
 }
 ul li
 {
-	display: inline-block;
-	height: 130px;
-	width: 100px;
-}	
+  display: inline-block;
+  height: 130px;
+  width: 100px;
+} 
 ul li a
 {
-	font-size: 25px;
-	color: #fff; 
-	text-decoration: none;
-	line-height: 130px;
-	text-align: center;
-	display: inline-block;
+  font-size: 25px;
+  color: #fff; 
+  text-decoration: none;
+  line-height: 130px;
+  text-align: center;
+  display: inline-block;
 }
 ul
 {
-	padding: 0px;
-	margin: 0px;
-	margin-left: 50px;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 50px;
 
 }
 nav ul
 {
-	float:left;
-	list-style:none;
+  float:left;
+  list-style:none;
 }
 .login-text
 {
-	float:right;
-	margin-right: 70px;
-	height: 130px;
+  float:right;
+  margin-right: 70px;
+  height: 130px;
 }
 p
 {
-	line-height:130px;
+  line-height:130px;
 }
 .search-box
 {
-	width: 130px;
-	height: 30px;
-	float: right;
-	position: relative;
-	margin-top: 50px;
-	margin-right: 20px;
-	background: #fff;
+  width: 130px;
+  height: 30px;
+  float: right;
+  position: relative;
+  margin-top: 50px;
+  margin-right: 20px;
+  background: #fff;
 
 }
 .search-logo
@@ -96,27 +101,26 @@ p
         font-size: 12px;
         outline: none;
 }
-
-/* .content
+.content
 {
 	width: 100%
 	height:1000px;
-	background: #666;
-} */
+	background: #b3b1b1;
+}
+
 .menu-position
 {
 	display: inline-block;
-	width:950px;
+	width:100%;
 	height: 40px;
-	padding-top:25px;
-	padding-left: 50px;
+  background: #b3b1b1;
 	
 }
 .menu
 { 
 	position: relative;
    width: 100%;
-   height:60px;
+   height:40px;
    background: #fff;
 }
 
@@ -134,6 +138,8 @@ p
 .menu-text
 {
 	float: left;
+  margin-left:450px; 
+  margin-top: 20px;
 }
 .main-regin
 {
@@ -169,85 +175,99 @@ a
 .text1
 {
   padding-top:15px;
-  background: #b9b9b9;
+  background:#2b292b;
   height: 40px;
   width: 600px;
-  color: #000;
+  color: #fff;
   text-align: center;
   margin-left: 300px;
   font-size: 15px;
+  box-shadow: 0 0 50px #000;
+  border-radius:10px;
 }
 
 .text2
 {
   padding-top:15px;
-  background: #b9b9b9;
+  background: #2b292b;
   height: 40px;
   width: 600px;
-  color: #000;
+  color: #fff;
   text-align: center;
   margin-left: 190px;
   font-size: 15px;
+  box-shadow: 0 0 50px #000;
+  border-radius:10px;
 }
 
 .text3
 {
   padding-top:15px;
-  background: #b9b9b9;
+  background: #2b292b;
   height: 40px;
   width: 600px;
-  color: #000;
+  color: #fff;
   text-align: center;
   margin-left:80px;
   font-size: 15px;
+  box-shadow: 0 0 50px #000;
+  border-radius:10px;
 }
 
 .text4
 {
   padding-top:15px;
-  background: #b9b9b9;
+  background: #2b292b;
   height: 40px;
   width: 600px;
-  color: #000;
+  color: #fff;
   text-align: center;
   margin-left: 150px;
   font-size: 15px;
+  box-shadow: 0 0 50px #000;
+  border-radius:10px;
 }
 
 .text5
 {
   padding-top:15px;
-  background: #b9b9b9;
+  background: #2b292b;
   height: 40px;
   width: 700px;
-  color: #000;
+  color: #fff;
   text-align: center;
   margin-left: 110px;
   font-size: 15px;
+  box-shadow: 0 0 50px #000;
+  border-radius:10px;
 }
 
 .text6
 {
   padding-top:15px;
-  background: #b9b9b9;
+  background: #2b292b;
   height: 40px;
   width: 600px;
-  color: #000;
+  color: #fff;
   text-align: center;
   margin-left: 360px;
   font-size: 15px;
+  box-shadow: 0 0 50px #000;
+  border-radius:10px;
 }
 
 .text7
 {
   padding-top:15px;
-  background: #b9b9b9;
+  background:#2b292b;
   height: 40px;
   width: 600px;
-  color: #000;
+  color: #fff;
   text-align: center;
   margin-left: 50px;
   font-size: 15px;
+  box-shadow: 0 0 50px #000;
+  border-radius:10px;
 }
 
 .menu-image

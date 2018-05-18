@@ -30,13 +30,17 @@
 	<form method="post" action="./doFile/doRegister.php">
 	<div class="content">
 		<section class="main-regin">
+			 <div class="tianchong1"></div>
+
+             <div class="main-style">
+
 			 <div class="register-title-box">
-			 	<h1 class="register-title">注册</h1>
+			 	<h2 class="register-title">注册</h2>
 			 </div>
 
 			 <div class="user-name-box">
 				<div class="user-name">用户名:</div>
-				<input class="user-name-input" style="width:300px;height:30px;" " type="text" name="username" />
+				<input class="user-name-input" style="width:200px;height:30px;" " type="text" name="username" />
 			</div>
 
 			 <div class="school-name-box">
@@ -52,18 +56,18 @@
 
 			<div class="password-box">
 				<div class="password">密码:</div>
-				<input class="password-input" style="width:300px;height:30px;" " type="password" name="password"/>
+				<input class="password-input" style="width:200px;height:30px;" " type="password" name="password"/>
 			</div>	
 
 			<div class="password-sure-box">
 				<div class="password-sure">确认密码:</div>
-				<input class="password-sure-input" style="width:300px;height:30px;"  type="password" name="surePwd"/>
+				<input class="password-sure-input" style="width:200px;height:30px;"  type="password" name="surePwd"/>
 			</div>
 
 			<div class="email-box">
 				<div class="email">邮箱:</div>
 
-				<input class="email-input" id='email' style="width:180px;height:30px;" " type="text" name="emailAdress"/>
+				<input class="email-input" id='email' style="width:200px;height:30px;" " type="text" name="emailAdress"/>
 				<div class="email-proving-button-box">
 					<a href="javascript:send_email()" class="email-proving-button"> 发送验证码</a>
 
@@ -72,12 +76,12 @@
 
 			<div class="email-proving-code-box">
 				<div class="email-proving-code">邮箱验证码:</div>
-				<input class="email-proving-code-input" style="width:300px;height:30px;"  type="text" name="emailVerify" />
+				<input class="email-proving-code-input" style="width:200px;height:30px;"  type="text" name="emailVerify" />
 			</div>
 
 			<div class="proving-code-box">
 				<div class="proving-code">验证码:</div>
-				<input class="proving-code-input" style="width:180px;height:30px;" " type="text" name="verify" />
+				<input class="proving-code-input" style="width:100px;height:30px;" " type="text" name="verify" />
 				<div class="proving-image">	
 				<img src = "doFile/getVerify.php" onclick="javascript:this.src=this.src+'?time='+Math.random();">	
 				</div>
@@ -86,6 +90,7 @@
 			<div class="register">
 				 <input type="submit" name="注册" class="register-button" >
 			</div>
+		 </div>	
 		</section>
 	</div>
 

@@ -10,9 +10,9 @@
 	<header>
 		<nav>
 			<div class="logo"><a href="mainpage.php"><img src="image\logo.png"></a></div>
-			<ul>
-				<li><a href="pickup.php">拾物</a></li>
-				<li><a href="foundthing.php">寻物启事</a></li>
+			<ul> 
+				<li><a href="pickup.php">&nbsp;&nbsp;&nbsp;拾物</a></li>
+				<li class="li1"><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
 			<p><a href="">登录</a > | <a href="">注册</a></p>
@@ -27,9 +27,9 @@
 	<div class="content">
 	<section class="menu">
 		<div class="menu-position">
-		   <div class="hr1"></div>
+
 		   <div class="menu-text">类型<div class="menu-image"><img src="image\menu.png" alt=""></div></div>
-		   <div class="hr1"></div>
+
 		</div>
 	</section>
 

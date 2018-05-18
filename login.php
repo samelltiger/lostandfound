@@ -11,7 +11,7 @@
 		<nav>
 			<div class="logo"><a href="mainpage.php"><img src="image\logo.png"></a></div>
 			<ul>
-				<li><a href="pickup.php">拾物</a></li>
+				<li><a href="pickup.php">&nbsp;&nbsp;&nbsp;拾物</a></li>
 				<li><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
@@ -29,41 +29,43 @@
 	<section class="black-section">
 		<div class="register-left">	
 			<div class="phone-image">
-				 <img src="image\电脑手机.png" alt="">
+				<div class="image-box1"><img src="image\电脑手机.png" alt=""> </div> 
 			</div>
 		</div>
+
 		<form method="post" action="./doFile/dologin.php">
 		<div class="register-right">
+			 <div class="tianchong1"></div>
+		  <div class="main-style">	
 			<div class="register-titel-box">
-				<h1 class="register-titel">登录</h1>
+				<h2 class="register-titel">登录</h2>
 			</div>
 			<div class="register-email">
-				<div class="email-text">账号:</div>
-				<input class="email-box" style="width:300px;height:40px;" " type="text" name="username"   />
+				<span class="email-text">账号:</span>
+				<input class="email-box" style="width:200px;height:30px;" " type="text" name="username"   />
 			</div>
 			<div class="register-password">
 				<div class="register-mima">
-				<div class="password-text">密码:</div>
-				<input class="password-box" style="width:300px;height:40px;" " type="password" name="password"  />
-				<span class="forget-password"><a href="getbackpassword.php" class="forget-password-text">忘记密码?</a></span>
-			</div>
-			<div class="register-proving">
+				   <span class="password-text">密码:</span>
+				   <span class="forget-password"><a href="getbackpassword.php" class="forget-password-text">忘记密码</a></span>
+				   <input class="password-box" style="width:160px;height:30px;" " type="password" name=" password"  />
+				</div>
+			</div>	
+			
 				<div class="register-proving">
-				<div class="proving-text">验证码:</div>
+				<span class="proving-text">验证码:</span>
 
-				<input class="proving-box" style="width:150px;height:40px;" " type="text" name="emali" placeholder="    请输入验证码" />
+				<input class="proving-box" style="width:100px;height:30px;" " type="text" name="emali" placeholder="" />
 
 				<div class="proving-image" >
 				<img src = "doFile/getVerify.php" onclick="javascript:this.src=this.src+'?time='+Math.random()";>	
-			
-				</div>
+			    </div>
 			</div>
 			<div class="button-box">
 				<a href="./register.php" class="register-button">注册</a>
-
 				<input class="login-button" type="submit" value = "登录" />
 			</div>
-		
+		 </div>
 		
 		</div>
 	</form>

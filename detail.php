@@ -11,7 +11,7 @@
 		<nav>
 			<div class="logo"><a href="mainpage.php"><img src="image\logo.png"></a></div>
 			<ul>
-				<li class="shiwu"><a href="pickup.php">拾物</a></li>
+				<li class="shiwu"><a href="pickup.php">&nbsp;&nbsp;&nbsp;拾物</a></li>
 				<li class="shiwu"><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
@@ -23,8 +23,8 @@
 			</div>
 		</nav>
 	</header>
-
-	<div class="content">
+  <div class="main-1">
+    <div class="content">
 	    <section class="main-regin">
 		    <div class="left-regin">
 		    	<div class="image-box"><img src="image/5.png" alt=""></div>
@@ -38,13 +38,14 @@
 		    		<div class="person">联系人: <span>刘刚</span></div>
 		    		<div class="hr"></div>
 		    		<div class="contact-way">联系方式: <span>18711148241</span></div>
+		    		<div class="hr"></div>
 		    </div>
 
 
 
 	    </section>
     </div>
-
+  </div> 
 	<footer>
 		
 	</footer>
