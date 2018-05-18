@@ -1,4 +1,3 @@
-
 <html>
 <head>
 	<meta charset="utf-8">
@@ -34,9 +33,6 @@
 					}
 					?>
 				</div>
-
-
-
 
 				<div class="search-box">
 					<div class="search-logo"><a href="#"><img src="image\search.png"></a></div>
@@ -118,9 +114,7 @@
 
 					$row = mysqli_fetch_all($result,MYSQL_ASSOC);
 
-					// var_dump($arr);
 					
-					// while($i<count($arr)){
 					    
 						
 				}else{
@@ -134,12 +128,29 @@
 
 					$row = mysqli_fetch_all($result,MYSQL_ASSOC);
 
-					 // var_dump($arr);
+					 
 				}
 				?>
+				<?php
+				if (isset($row)) {
+					$arr = reshape($row);
+				}
+				?>
+				<?php    
+					if($arr){
+						var_dump($arr);
+						echo $arr[0]['img_src'];die;
+				?>
 
-		<div class="section4-box1" ></div>
-		<div class="section4-box1" ></div>
+		<div class="section4-box1"  >
+			<img src="<?php
+						echo './doFile/'.$arr[0]['img_src'];
+						?>">
+		</div>
+		<?php
+					}
+		?>
+		<!-- <div class="section4-box1" ></div>
 		<div class="section4-box1" ></div>
 		<div class="section4-box1" ></div>
 		<div class="section4-box2" ></div>
@@ -160,7 +171,7 @@
 		<div class="section4-box1" ></div>
 		<div class="section4-box1" ></div>
 		<div class="section4-box1" ></div>
-		<div class="section4-box2" ></div>
+		<div class="section4-box2" ></div> -->
 	</section>
 </div>
 
