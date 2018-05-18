@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title></title>
 	<link rel="stylesheet" href="./css/normalize.css">
-	<link rel="stylesheet" href="./css/mainpage.css">
+	<link rel="stylesheet" href="./css/mainpage2.css">
 	<script type="text/javascript" src="/js/mainpage.js"></script>
 	<link rel="stylesheet" type="text/css" href="/css/zzsc-demo.css">
 </head>
@@ -13,7 +13,7 @@
 		<nav>
 			<div class="logo"><a href="mainpage.php"><img src="image\logo.png"></a></div>
 			<ul>
-				<li class="title-li"><a href="pickup.php">拾物</a></li>
+				<li class="title-li"><a href="pickup.php">&nbsp;&nbsp;&nbsp;拾物</a></li>
 				<li class="title-li"><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
@@ -46,28 +46,26 @@
 			</nav>
 		</header>
 
-		<div>
+			<div class="main-1">
+			   <div class="main-2">
+			   	   <div class="tianchong1"></div>
 			<section  class="menu">
-				<div class="menu-position">
-					<div class="hr1"></div>
-					<div class="menu-text"><a class="sort-memu" href="#" id="mysteve" ">类型</a><div class="menu-image"><img src="image\menu.png" alt=""></div></div>
-					<div class="hr1"></div>
-				</div>
-				<div id="add" class="menu-total">
-					<ul class="menu-ul">
-						<li class="menu-li-1"><a class="menu-a" href="mainpage.php?type=0" target="_blank" >手机</a></li>  
-						<li class="menu-li"><a class="menu-a" href="d.php?type = 1">钱包</a></li>
-						<li class="menu-li"><a class="menu-a" href="demo.php?type = 1">卡片</a></li>
-						<li class="menu-li"><a class="menu-a" href="demo.php?type = 1">文件</a></li>
-						<li class="menu-li"><a class="menu-a" href="demo.php?type = 1">文具</a></li>
-						<li class="menu-li"><a class="menu-a" href="demo.php?type = 1">眼镜</a></li>
-						<li class="menu-li"><a class="menu-a" href="demo.php?type = 1">证件</a></li>
-						<li class="menu-li"><a class="menu-a" href="demo.php?type = 1">钥匙</a></li>
-						<li class="menu-li"><a class="menu-a" href="demo.php?id=pet">宠物</a></li>
-						<li class="menu-li"><a class="menu-a" href="demo.php?id=handbag">手包</a></li>
-						<li class="menu-li-2"><a class="menu-a" href="demo.php?id=others">其他</a></li>
-					</ul>
-				</div>
+			<div id="add" class="menu-total">
+			<ul class="menu-ul">
+			<li class="menu-li-1"><a class="menu-a" href="demo.php?type=0" target="_blank" >手机</a></li>  
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=purse&type = 1">钱包</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=cards">卡片</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=file">文件</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=wenju">文具</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=glass">眼镜</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=papers">证件</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=keys">钥匙</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=pet">宠物</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=handbag">手包</a></li>
+			<li class="menu-li-2"><a class="menu-a" href="demo.php?id=others">其他</a></li>
+			</ul>
+			</div>
+
 			</section>
 
 			<section class="section2">
@@ -75,7 +73,6 @@
 						 <div class="big-box1">
 			<div class="box1"><img src="image\10.png" alt=""></div>
 
-			
 			<div class="box2"><img src="image\2.png" alt=""></div>
 			<div class="box4"><img src="image\3.png" alt=""></div>
 

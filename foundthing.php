@@ -9,10 +9,10 @@
 <body>
 	<header>
 		<nav>
-			<div class="logo"><a href="#"><img src="image\logo.png"></a></div>
-			<ul>
-				<li><a href="#">拾物</a></li>
-				<li><a href="#">寻物启事</a></li>
+			<div class="logo"><a href="mainpage.php"><img src="image\logo.png"></a></div>
+			<ul> 
+				<li><a href="pickup.php">&nbsp;&nbsp;&nbsp;拾物</a></li>
+				<li class="li1"><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
 			<?php
@@ -42,9 +42,9 @@
 	<div class="content">
 	<section class="menu">
 		<div class="menu-position">
-		   <div class="hr1"></div>
+
 		   <div class="menu-text">类型<div class="menu-image"><img src="image\menu.png" alt=""></div></div>
-		   <div class="hr1"></div>
+
 		</div>
 	</section>
 

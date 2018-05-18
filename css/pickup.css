@@ -3,7 +3,22 @@ body
 	width: 1024px;
 	margin:0px auto;
 }
+
 nav
+{
+   height: 130px;
+  background:#000;
+}
+
+input:-webkit-autofill, 
+ textarea:-webkit-autofill, 
+ select:-webkit-autofill { 
+       -webkit-box-shadow: 0 0 0 1000px white inset; 
+}
+ input[type=text]:focus, input[type=password]:focus, textarea:focus {
+      -webkit-box-shadow: 0 0 0 1000px white inset; 
+}
+
 {
 	height: 130px;
 	background:#000;
@@ -49,6 +64,10 @@ ul
 	margin: 0px;
 	margin-left: 50px;
 
+}
+.li1
+{
+	background:#666;
 }
 nav ul
 {
@@ -102,39 +121,41 @@ p
 }
 .main-regin
 {
-	widows: 90%;
-	height: 580px;
-	background: #fff;
+	width:100%;
+	height: 540px;
+	background: #b3b1b1;
 }
 .left-regin
 {
-	background: #fff;
+	background: #b3b1b1;
 	width: 49%;
-	height:550px;
+	height:540px;
 	float:left;
 	margin-left:50px;
 }
 .right-regin
 {
-	background:#fff;
+	background: #b3b1b1;
 	width: 42%;
-	height:550px;
+	height:540px;
 	float:right;
 	
 }
 .image-border
 {
-	height: 500px;
+	height: 430px;
 	width: 100%;
 	border:1px solid;
-	margin-top: 30px;
+	margin-top:60px;
+	box-shadow: 0 0 50px #000;
+	border-radius:10px;
 }
 .image
 {
 	height: 275px;
 	width: 250px;
 	background: #fff;
-	margin-top: 120px;
+	margin-top: 75px;
 	margin-left: 130px;
 }
 
@@ -142,8 +163,8 @@ p
 {
 	margin-top:60px;
 	width:100%;
-	height:40px; 
-	background: #fff;
+	height:60px; 
+	
 
 
 }
@@ -157,7 +178,8 @@ p
   box-shadow: 0 0 5px #ccc;
     position: relative;
     float:right;
-    margin-right: 188px;
+    margin-right: 128px;
+    margin-top: 20px;
  
 }
 select{
@@ -196,8 +218,9 @@ select{
 	display: inline-block;
 	width: 50px;
 	height:20px;
-	padding-top: 5px;
+	padding-top: 25px;
 	padding-left: 40px;
+	color: #fff;
 
 }
 .long-text
@@ -209,7 +232,7 @@ select{
 {
 	width:100%;
 	height:40px;
-	background: #fff;
+	background: #2b292b;
 }
 .title-text
 {
@@ -218,11 +241,13 @@ select{
 	height:20px;
 	padding-top: 5px;
 	padding-left: 40px;
+	color: #fff;
 }
 .title-text-input
 {
-	margin-right:86px;
+	margin-right:26px;
 	border:1px solid;
+	border-radius: 5px;
 }
 
 
@@ -230,7 +255,7 @@ select{
 {
 	width: 100%;
 	height:40px; 
-    background: #fff;
+    background: #2b292b;
 }
 .updata-image-title
 {
@@ -239,6 +264,7 @@ select{
 	height:20px;
 	padding-top: 5px;
 	padding-left: 10px;
+	color: #fff;
 }
 .updata-image-text
 {
@@ -264,7 +290,7 @@ select{
     text-indent: 0;
     line-height: 20px;
     margin-top: 0px;
-    margin-right:250px;
+    margin-right:190px;
     float: right;
 
 }
@@ -292,32 +318,33 @@ select{
 {
 	width:100%;
 	height:70px;
-	background: #fff;
+	background: #2b292b;
 }
 .item-description-title
 {
    display: inline-block;
 	width:70px;
-	height:20px;
+	height:18px;
 	float: left;
 	padding-top: 5px;
 	padding-left: 10px;
+	color: #fff;
 }
 .long-text
 {
 	font-size: 15px;
-	margin-left:10px;
+	margin-left:20px;
+	border-radius: 5px;
 }
 .contact-way-box
 {
 	width: 100%;
 	height: 150px;
-	background: #fff;
-	margin-top: 30px;
+	background: #2b292b;
 }
 .contact-way
 {
- 
+ color: #fff;
 }
 .phone
 {   
@@ -331,11 +358,13 @@ select{
 	display: inline-block;
 	padding-top: 5px;
 	padding-left: 40px;
+	color: #fff;
 }
 .phone-title-box
 {
-   margin-right: 190px;
+   margin-right: 125px;
   border:1px solid;
+  border-radius: 5px;
 }
 
 .QQ
@@ -350,11 +379,13 @@ select{
 	display: inline-block;
 	padding-top: 5px;
 	padding-left: 45px;
+	color: #fff;
 }
 .QQ-title-box
 {
-   margin-right: 190px;
+   margin-right: 125px;
    border:1px solid;
+   border-radius: 5px;
 }
 
 .wechat
@@ -369,11 +400,13 @@ select{
 	display: inline-block;
 	padding-top: 5px;
 	padding-left: 40px;
+	color: #fff;
 }
 .wechat-title-box
 {
-   margin-right: 190px;
+   margin-right: 125px;
    border:1px solid;
+   border-radius: 5px;
 }
 
 
@@ -384,18 +417,26 @@ select{
 {
 	 width: 100%;
     height: 70px;
-    background: #fff;
+   background: #2b292b;
 }
 .updata-button
 {
-	width:260px;
+	width:155px;
 	height: 40px;
-	background: #000;
+	background: #7b7b7b;
 	border-radius: 5px;
 	color: #fff;
 	text-align: center;
 	border:none;
     margin-top: 15px;
     float: left;
-    margin-left: 85px;
+    margin-left: 100px;
+}
+.border-1
+{
+	width: 88%;
+	height: 430px;
+	background: #2b292b;
+	box-shadow: 0 0 50px #000;
+	border-radius:10px;
 }

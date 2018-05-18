@@ -96,18 +96,24 @@ p
         font-size: 12px;
         outline: none;
 }
+.main-1
+{
+	width: 100%;
+	height: 500px;
+	background: #b3b1b1;
+}
 .content
 {
 	width: 87%;
-	background: #fff;
-	height: 600px;
+	background: #b3b1b1;
+	height: 500px;
 	margin: 0px auto;
 }
 .left-regin
 {
 	width: 48%;
 	height: 500px;
-	background: #fff;
+	background: #b3b1b1;
 	float: left;
 
 }
@@ -115,9 +121,13 @@ p
 {
 	width: 48%;
 	height: 400px;
-	background: #666;
 	float: right;
 	margin-top: 60px;
+
+	border:1px solid;
+	border-radius:10px;
+	background: #2b292b;
+	box-shadow: 0 0 50px #000;
 }
 .image-box
 {
@@ -125,6 +135,8 @@ p
 	height: 400px;
 	background:#657;
 	margin-top: 60px;
+	border:2px solid;
+	box-shadow: 0 0 50px #000;
 }
 .detail-title
 {
@@ -146,7 +158,7 @@ h2
 	margin-top:0px;
 	height: 50px;
 	width: 100%;
-	background: #555;
+	background: #2b292b;
 	color: #fff;
 	display: inline-block;
 	line-height: 50px;
@@ -157,17 +169,17 @@ h2
 {
     height: 50px;
     width: 100%;
-    background:#d6d6d6;
+    background:#2b292b;
     font-size: 13px;
-    color: #000;
+    color: #fff;
     
 }
 .person
 {
 	height: 50px;
 	width: 100%;
-	background: #555;
-	color: #000;
+	background:#2b292b;
+	color: #fff;
 	display: inline-block;
 	line-height: 50px;
 	text-align: center;
@@ -176,13 +188,13 @@ h2
 {
 	height: 50px;
 	width: 100%;
-	background: #444;
-	color: #000;
+	background:#2b292b;
+	color: #fff;
 	display: inline-block;
 	line-height: 50px;
 	text-align: center;
 }
 .hr	
 {
-	border: 1px	solid;
+	border: 1px	solid #222	;
 }

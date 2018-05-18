@@ -4,14 +4,14 @@
 	<meta charset="utf-8">
 	<title></title>
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/fount-thing.css">
+    <link rel="stylesheet" href="./css/search.css">
 </head>
 <body>
 	<header>
 		<nav>
 			<div class="logo"><a href="mainpage.php"><img src="image\logo.png"></a></div>
 			<ul>
-				<li><a href="pickup.php">拾物</a></li>
+				<li><a href="pickup.php">&nbsp;&nbsp;&nbsp;拾物</a></li>
 				<li><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
@@ -38,11 +38,52 @@
 			</div>
 		</nav>
 	</header>
-
+   <div class="main-1">
 	<div class="content">
-	
-    </div>
+	  <div class="search-box1"></div>
+	  <a href="" class="chaolianjie">
+	     <div class="search-box2">
+	  	  <span class="sort">校园卡</span>
+	  	  <span class="person">联系人<span>刘大炮</span></span>
+	  	  <span class="contact">联系方式：<span>18711148211</span></span><br>
+	  	  <span class="title">我在芷兰食堂捡了一张教育学院学生的校园卡。</span>
+	    </div>
+	  </a>
+	  <a href="" class="chaolianjie">
+	     <div class="search-box2">
+	  	  <span class="sort">校园卡</span>
+	  	  <span class="person">联系人<span>刘大炮</span></span>
+	  	  <span class="contact">联系方式：<span>18711148211</span></span><br>
+	  	  <span class="title">我在芷兰食堂捡了一张教育学院学生的校园卡。</span>
+	    </div>
+	  </a>
+	  <a href="" class="chaolianjie">
+	     <div class="search-box2">
+	  	  <span class="sort">校园卡</span>
+	  	  <span class="person">联系人<span>刘大炮</span></span>
+	  	  <span class="contact">联系方式：<span>18711148211</span></span><br>
+	  	  <span class="title">我在芷兰食堂捡了一张教育学院学生的校园卡。</span>
+	    </div>
+	  </a>
+	  <a href="" class="chaolianjie">
+	     <div class="search-box2">
+	  	  <span class="sort">校园卡</span>
+	  	  <span class="person">联系人<span>刘大炮</span></span>
+	  	  <span class="contact">联系方式：<span>18711148211</span></span><br>
+	  	  <span class="title">我在芷兰食堂捡了一张教育学院学生的校园卡。</span>
+	    </div>
+	  </a>
+	  <a href="" class="chaolianjie">
+	     <div class="search-box2">
+	  	  <span class="sort">校园卡</span>
+	  	  <span class="person">联系人<span>刘大炮</span></span>
+	  	  <span class="contact">联系方式：<span>18711148211</span></span><br>
+	  	  <span class="title">我在芷兰食堂捡了一张教育学院学生的校园卡。</span>
+	    </div>
+	  </a>
 
+    </div>
+   </div>
 	<footer>
 		
 	</footer>
