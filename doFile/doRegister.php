@@ -76,11 +76,11 @@ $result_insert=mysqli_stmt_execute($stmt);
 
 if($result_insert){
 
- echo "<script>alert('您已注册成功，返回登录');location='../login.php'</script>";
+ echo "<script>alert('您已注册成功，请返回登录');location='../login.php'</script>";
  exit;
 
 }else {
- echo "<script>alert('您输入的用户名已存在,请重新注册！';location='../register.php')</script>";
+ echo "<script>alert('您输入的邮箱已存在,请重新注册！');location='../register.php'</script>";
  exit;
 }
 
