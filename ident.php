@@ -30,30 +30,35 @@
          	   <div class="center-box">
          		    <div class="tianchong1"></div>
          	    <div class="main-style">
+         	    	<form action="./doFile/doIdent.php" method="post" enctype="multipart/form-data">
          	         <div class="declare"><h2>用户认证</h2></div>
          	         <div class="declare-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为保证本 网站服务的对象是正常在校大学生，我们需要您用学生信息进行认证。请您放心，我们承诺会保证用户信息的安全性。
          	         </div>
          	        <div class="student-image-box">
          	 	         <span class="student-image">学生证照片:</span>
-         	 	         <a href="javascript:;" class="file">选择图片<input type="file" name="" id=""></a>
+         	 	         <a href="javascript:;" class="file">选择图片<input type="file" 
+         	 	         	name="img_src" id=""></a>
          	 	    </div>
-         	 	    <div class="student-name-box">
-         	             <span class="student-name">学生姓名:</span> 
-				         <input class="student-name-input" style="width:100px;height:25px;" " type="text" name="username"   />
-			        </div>
+         	 	    
          	        <div>
          	             <div class="long-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下是我们能为您提供完整的服务所需要的信息，我们会自动匹配拾物者发布物品的失主信息，若匹配到您，我们会通过邮件的形式通知您。</div>
          	        <div class="s-card-box">
                          <span class="s-card">校园卡号:</span>
-				         <input class="s-card-input" style="width:200px;height:25px;" " type="text" name="username"   />
+				         <input class="s-card-input" style="width:200px;height:25px;" " type="text" name="school_num"   />
 			        </div>
+
+			        <div class="s-card-box">
+                         <span class="s-card">学号:</span>
+				         <input class="s-card-input" style="width:200px;height:25px;" " type="text" name="student_num"   />
+			        </div>
+
 			        <div class="s-card-box">
                          <span class="id-card">身份证号码:</span>
-				         <input class="s-card-input" style="width:200px;height:25px;" " type="text" name="username"   />
+				         <input class="s-card-input" style="width:200px;height:25px;" " type="text" name="id_num"   />
 			        </div>
 			        <div class="s-card-box">
                          <span class="telephone">手机号码:</span>
-				         <input class="s-card-input" style="width:200px;height:25px;" " type="text" name="username"   />
+				         <input class="s-card-input" style="width:200px;height:25px;" " type="text" name="phone"   />
 			        </div>
 			             <div class="button-box">
 				    <input class="sure-button" type="submit" value = "提交" />
@@ -62,6 +67,7 @@
 			     
 		        </div>
             </div>
+            </form>
 	    </div>
 	</div>
 	<footer>

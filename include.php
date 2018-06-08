@@ -6,4 +6,5 @@ set_include_path(".".PATH_SEPARATOR.ROOT."/lib".PATH_SEPARATOR.ROOT."/core".PATH
 require_once 'images.func.php';
 require_once 'mysql.func.php';
 require_once 'array.func.php';
+require_once 'upload.func.php';
 

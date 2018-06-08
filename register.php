@@ -19,10 +19,7 @@
 			<div class="login-text">
 			<p><a href="login.php">登录</a > | <a href="register.php">注册</a></p>
 		    </div>
-			<div class="search-box">
-				<div class="search-logo"><a href="#"><img src="image/search.png"></a></div>
-			    <input type="text" name="search" placeholder="    输入特征搜索">
-			</div>
+
 			
 		</nav>
 	</header>

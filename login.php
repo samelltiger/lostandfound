@@ -17,9 +17,16 @@
 			<div class="login-text">
 			<p><a href="login.php">登录</a > | <a href="register.php">注册</a></p>
 		    </div>
-			<div class="search-box">
-				<div class="search-logo"><a href="#"><img src="image\search.png"></a></div>
-			    <input type="text" name="search" placeholder="    输入特征搜索">
+					<div class="search-box">
+				<form action="./doFile/dosearch.php" method="get">  
+			    
+			    <input type="text" name="key" placeholder=" 输入特征搜索"> 
+			    <input type="submit" name="sub" value="搜索" /> 
+			    </form>  
+
+			<!-- <div class="search-logo"><a href="#"><img src="image\search.png"></a></div> -->
+			
+			
 			</div>
 			
 		</nav>

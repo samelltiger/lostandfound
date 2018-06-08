@@ -32,10 +32,7 @@
 					}
 				?>
 		    </div>
-			<div class="search-box">
-				<div class="search-logo"><a href="#"><img src="image/search.png"></a></div>
-			    <input type="text" name="search" placeholder="    输入特征搜索">
-			</div>
+		
 			
 		</nav>
 	</header>
@@ -79,7 +76,7 @@
 
 				<div class="title-box">
 			        <span class="title-text">标题：</span>
-				    <input class="title-text-input" style="width:252px;height:30px;" " type="text" name="title"/>
+				    <input class="title-text-input" style="width:252px;height:30px;" " type="text" name="title" placeholder="请输入物品关键字"/>
                 </div>
 
                 <div class="updata-image">

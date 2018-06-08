@@ -48,13 +48,14 @@
 						
 						$link = connect();
 
-						$type = $_GET['type'];
+						$imgsrc = isset($_GET['imgsrc'])?$_GET['imgsrc']:null;
+						
 
-						$sql_select = "select * from lost_found where  type=? ";
+						$sql_select = "select * from lost_found where  img_src=? ";
 
 						$stmt = mysqli_prepare($link,$sql_select);
 
-						mysqli_stmt_bind_param($stmt,'s',$type);
+						mysqli_stmt_bind_param($stmt,'s',$imgsrc);
 
 						mysqli_execute($stmt);
 
@@ -78,7 +79,7 @@
 
 						<?php 
 						echo $row['title'];echo "<br>";
-						echo $row['uid'];echo "<br>";
+						// echo $row['uid'];echo "<br>";
 						?>
 
 					</div>
@@ -113,12 +114,12 @@
 					<div class="hr"></div>
 					<div class="contact-way">联系方式: <span>
 						<?php
-						$type = $_GET['type'];
-						$sql_select = "select * from lost_found where  type=? ";
+						
+						$sql_select = "select * from lost_found where  img_src=? ";
 
 						$stmt = mysqli_prepare($link,$sql_select);
 
-						mysqli_stmt_bind_param($stmt,'s',$type);
+						mysqli_stmt_bind_param($stmt,'s',$imgsrc);
 
 						mysqli_execute($stmt);
 
