@@ -11,7 +11,7 @@
 		<nav>
 			<div class="logo"><a href="mainpage.php"><img src="image\logo.png"></a></div>
 			<ul>
-				<li class="shiwu"><a href="pickup.php">&nbsp;&nbsp;&nbsp;拾物</a></li>
+				<li class="shiwu"><a href="pickup.php">&nbsp;&nbsp;&nbsp;发布</a></li>
 				<li class="shiwu"><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">

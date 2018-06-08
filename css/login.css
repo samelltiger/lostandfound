@@ -105,7 +105,7 @@ p
 .black-section
 {
 	margin: 0 auto;
-    height:450px;
+    height:510px;
     width: 82%;
     background: #b3b1b1;
 }
@@ -263,7 +263,7 @@ width: 100%;
 	float: right;
 	text-decoration: none;
 	height: 32px;
-	width:35px;
+	width:40px;
 	font-size: 10px;
 
 }
@@ -286,7 +286,7 @@ width: 100%;
 .password-box
 {
 	position:relative;
-	right:45px; 
+	right:40px; 
 	margin-top: 10px;
 	float:right;
 	border: 1px solid;

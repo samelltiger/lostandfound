@@ -42,12 +42,7 @@ img
 	height: 130px;
 	width: 100px;
 }	
-.title-li:hover
-{
-  
-  background:#666;   /* 鼠标悬停放大 */
 
-}
 ul li a
 {
 	font-size: 25px;
@@ -227,18 +222,154 @@ p
 
 }
 
-.section2 div div:hover img
+/* .section2 div div:hover img
 {
   
-  transform: scale(1.05, 1.05);   /* 鼠标悬停放大 */
+  transform: scale(1.05, 1.05);   鼠标悬停放大
   box-shadow: 0 0 50px #000;
   border:1px solid #fff;
 	
-}
-.section2 div img
+} */
+/* .section2 div img
 {
-	transition:all .5s;/* opacity:0.4;filter:alpha(opacity=40); 变暗*/
-}  /*  动画时间 */
+	transition:all .5s;opacity:0.4;filter:alpha(opacity=40); 变暗
+}  动画时间 */
+
+
+.wenzitexiao{
+	font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+	font-size:14px;
+	color:#333;
+	text-decoration:none;
+	}
+#wrapper {
+	max-width:260px;
+	width:100%;
+	margin:0px auto;
+	margin-top:10px;
+}
+
+/* main_img */
+.main_img{
+    height: 180px;
+    width: 250px;
+	overflow:hidden;
+	position: relative;
+	border-radius: 8px;
+}
+.main_img img{
+	height: 180px;
+    width: 250px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+	z-index:1;
+	transition-delay: 0s;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease;
+	/* Firefox 4 */
+	-moz-transition-delay: 0s;
+    -moz-transition-duration: 1s;
+    -moz-transition-property: all;
+    -moz-transition-timing-function: ease;
+	/* Safari 和 Chrome */
+	-webkit-transition-delay: 0s;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+	/* Opera */
+	-o-transition-delay: 0s;
+    -o-transition-duration: 1s;
+    -o-transition-property: all;
+    -o-transition-timing-function: ease;
+	}
+.main_img .show {
+    background: rgba(0, 0, 0, 0.4);
+    height:180px;
+    left: 0;
+    opacity: 0;
+	filter:alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: opacity;
+    transition-timing-function: ease-in;
+	/* Firefox 4 */
+	-moz-transition-delay: 0s;
+    -moz-transition-duration: 0.3s;
+    -moz-transition-property: opacity;
+    -moz-transition-timing-function: ease-in;
+	/* Safari 和 Chrome */
+	-webkit-transition-delay:0s;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: opacity;
+    -webkit-transition-timing-function: ease-in;
+	/* Opera */
+	-o-transition-delay:0s;
+    -o-transition-duration: 0.3s;
+    -o-transition-property: opacity;
+    -o-transition-timing-function: ease-in;
+    width:250px;
+    z-index: 200;
+}
+.main_img .show .imgArea {
+      
+	bottom:0;
+    margin:0px 0px 10px 40px;
+    opacity: 0;
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: ease;
+	/* Firefox 4 */
+	-moz-transition-delay: 0s;
+    -moz-transition-duration: 0.4s;
+    -moz-transition-property: all;
+    -moz-transition-timing-function: ease;
+	/* Safari 和 Chrome */
+	-webkit-transition-delay:0s;
+    -webkit-transition-duration: 0.4s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+	/* Opera */
+	-o-transition-delay:0s;
+    -o-transition-duration: 0.4s;
+    -o-transition-property: all;
+    -o-transition-timing-function: ease;
+}
+.main_img .show .imgArea .wenzitexiao{
+	color:rgba(255,255,255, 0.8);
+	display:block;
+	position: relative;
+	padding:5px 12px;
+	border:rgba(255,255,255, 0.6) 1px solid;
+	border-radius:8px;
+	font-size: 16px;
+	margin-top: 60px;
+}
+.main_img .show .imgArea .wenzitexiao:hover{
+	background: rgba(255,255,255, 0.7);
+	color:rgba(0,0,0, 0.6);
+}
+.main_img:hover  .show {opacity: 1;filter:alpha(opacity=100);}
+.main_img:hover .show .imgArea{opacity:1;filter:alpha(opacity=100);bottom:10%;}
+.main_img:hover img {
+	transform: scale(1.2, 1.2);
+	
+	-ms-transform:scale(1.2, 1.2); 	/* IE 9 */
+	-moz-transform:scale(1.2, 1.2); 	/* Firefox */
+	-webkit-transform:scale(1.2, 1.2); /* Safari 和 Chrome */
+	-o-transform:scale(1.2, 1.2); 	/* Opera */
+
+
+
+
+
 .section2
 {
 	width: 100%;
@@ -264,11 +395,11 @@ img
 {
    width:413px;
    height: 170px;
-   background:#888;
+ background: #b3b1b1;
    margin-top:20px;
   /* 	 margin-left:10px; */
    float: left;
-   border:1px solid #000;
+   
 }
 .box1 .bmbox
 { 
@@ -294,28 +425,34 @@ img
   text-align:center;
 
  }
+ .box1 img:hover 
+ { 
+  opacity: 0.9; 
+color: #fff; 
+background: rgba(0,0,0,0.8); 
+} 
 .box2
 {
 	 width:230px;
    height: 170px;
-   background:#888;
+   background: #b3b1b1;
    margin-top:20px;
   cursor:pointer;
    float: left;
-      border:1px solid #000;
+   
 }
 
 .box4
 {
 	 width: 163px;
    height: 170px;
-   background:#888;
+ background: #b3b1b1;
    margin-top: 20px;
      margin-left:20px;
      cursor:pointer;
   /*  margin-left:10px; */
    float:left;
-      border:1px solid #000;
+   
 }
 .big-box2
 {	
@@ -328,22 +465,22 @@ img
 {
 	width: 210px;
    height: 170px;
-   background:#888;
+   background: #b3b1b1;
    margin-top: 20px;
    float: left;
    cursor:pointer;
-      border:1px solid #000;
+     
 }
 
 .box5
 {
 	height: 170px;
 	width: 210px;
-	background:#999;
+	background: #b3b1b1;
 	float: left;
 	margin-top: 20px;
 	cursor:pointer;
-	   border:1px solid #000;
+	  
 }
 .big-box3
 {
@@ -357,11 +494,11 @@ img
 	height: 360px;
 	width: 201px;
 	float: left;
-	background: #999;
+	background: #b3b1b1;
 	margin-top: 20px;
 	margin-left: 20px;
 	cursor:pointer;
-	   border:1px solid #000;
+	 
 }
 .big-box4
 {
@@ -375,10 +512,10 @@ img
 	width: 173px;
 	height: 180px;
 	float: left;
-	background: #999;
+	background: #b3b1b1;
 	margin-top: 20px;
 	cursor:pointer;
-	   border:1px solid #000;
+	  
 
 }
 .box8
@@ -386,22 +523,22 @@ img
 	width: 210px;	
 	height: 180px;
 	float: left;
-	background: #999;
+	background: #b3b1b1;
 	margin-top: 20px;
 	margin-left: 30px;
 	cursor:pointer;
-	   border:1px solid #000;
+	
 }
 .box9
 {
 	width: 443px;
 	height: 180px;
-	background: #999;
+	background: #b3b1b1;
     float: left;
     margin-left: 28px;
     margin-top: 20px;
     cursor:pointer;
-       border:1px solid #000;
+  
 }
 .section3
 {

@@ -9,7 +9,7 @@ nav
    height: 130px;
   background:#000;
 }
-p,p a
+p,p a 
 {
   margin: 0;
   padding: 0;
@@ -33,7 +33,7 @@ img
   margin-left: 70px;
   float: left;
 }
-ul li
+.li2
 {
   display: inline-block;
   height: 130px;
@@ -108,42 +108,123 @@ p
 	background: #b3b1b1;
 }
 
+
 .menu-position
 {
-	display: inline-block;
-	width:100%;
-	height: 40px;
-  background: #b3b1b1;
-	
+  display: inline-block;
+  width:950px;
+  height: 20px;
+  padding-top:25px;
+  padding-left: 50px;
+  
 }
 .menu
 { 
-	position: relative;
+  position: relative;
    width: 100%;
    height:40px;
-   background: #fff;
+  background: #b3b1b1;
 }
 
-.hr1
+
+.tianchong1
 {
-	position: relative;
-	border: 1px solid #000;
-	padding: 0;
-	margin: 9px 60px;
-	width:307px;
-	float: left;
-	color: #000;
+  height: 18px;
+    background: #b3b1b1;
+    width: 100%;
 }
-
 .menu-text
 {
-	float: left;
-  margin-left:450px; 
-  margin-top: 20px;
+  float: left;
 }
+.menu-image
+{
+  width:20px;
+  height: 21px;
+  float:right;
+}
+.menu-total
+{
+  width:870px;
+  height:30px;
+  background: #fff;
+
+}
+
+.menu-ul
+{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+  width:1024px;
+  background: #b3b1b1;
+
+}
+.menu-li
+{
+  display: inline-block;
+    line-height: 30px;
+    padding-right:0px;
+    padding-left: 25px;
+    background: #b3b1b1;
+
+}
+.menu-li-1
+{
+  display: inline-block;
+    line-height: 30px;
+    padding-left:92px;
+    padding-right:0px;
+    background: #b3b1b1;
+
+}
+.menu-li-2
+{
+  display: inline-block;
+    line-height: 30px;
+    padding-left:30px;
+    background: #b3b1b1;
+
+}
+
+.menu-a
+{
+  line-height: 20px;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    font-size: 15px;
+    color: #000;
+    border:1px solid #000;
+    border-radius: 3px;
+    padding: 2px 4px;
+    background: #2b292b;
+    color:#fff;
+    box-shadow: 0 0 40px #fff;
+
+}
+.menu-a-1
+{
+  line-height: 20px;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    font-size: 15px;
+    color: #000;
+    border:1px solid #000;
+    border-radius: 3px;
+    padding: 2px 4px;
+    background:#ff1a1a;
+    color:#fff;
+    box-shadow: 0 0 40px #fff;
+
+}
+
+
 .main-regin
 {
-	margin-top: 40px;
+	margin-top: 35px;
 	width: 100%;
 	height:800px;
 	/* background: #888; */
@@ -154,10 +235,11 @@ p
   transform: scale(1.05, 1.05);   /* 鼠标悬停放大 */
 
 }
-.main-regin div a
+.main-regin div
 {
   transition:all .5s;/* opacity:0.4;filter:alpha(opacity=40); 变暗*/
 }  /*  动画时间 */
+
 .text-box
 {
 	height: 100px;
@@ -174,7 +256,7 @@ a
 }
 .text1
 {
-  padding-top:15px;
+  padding-top:14px;
   background:#2b292b;
   height: 40px;
   width: 600px;

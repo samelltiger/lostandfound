@@ -13,7 +13,7 @@
 		<nav>
 			<div class="logo"><a href="mainpage.php"><img src="image/logo.png"></a></div>
 			<ul>
-				<li><a href="pickuo.php">拾物</a></li>
+				<li><a href="pickup.php">发布</a></li>
 				<li><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
@@ -88,7 +88,7 @@
 			</div>
 
 			<div class="register">
-				 <input type="submit" name="注册" class="register-button" >
+				<input type="submit" value="注册" class="register-button" >
 			</div>
 		 </div>	
 		</section>

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title></title> 
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/fount-thing.css">
 </head>
@@ -11,8 +11,8 @@
 		<nav>
 			<div class="logo"><a href="mainpage.php"><img src="image\logo.png"></a></div>
 			<ul> 
-				<li><a href="pickup.php">&nbsp;&nbsp;&nbsp;拾物</a></li>
-				<li class="li1"><a href="foundthing.php">寻物启事</a></li>
+				<li class="li2"><a href="pickup.php">&nbsp;&nbsp;&nbsp;发布</a></li>
+				<li class="li1 li2"><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
 			<?php
@@ -40,13 +40,27 @@
 	</header>
 
 	<div class="content">
-	<section class="menu">
-		<div class="menu-position">
+		   
+			 <div class="tianchong1"></div>
+			<section  class="menu">
+			<div id="add" class="menu-total">
+			<ul class="menu-ul">
+			<li class="menu-li-1"><a class="menu-a" href="demo.php?type=0" target="_blank" >手机</a></li>  
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=purse&type = 1">钱包</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=cards">卡片</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=file">文件</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=wenju">文具</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=glass">眼镜</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=papers">证件</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=keys">钥匙</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=pet">宠物</a></li>
+			<li class="menu-li"><a class="menu-a" href="demo.php?id=handbag">手包</a></li>
+			<li class="menu-li-2"><a class="menu-a" href="demo.php?id=others">其他</a></li>
+			<li class="menu-li-2"><a class="menu-a-1" href="pickup.php">发布启事</a></li>
+			</ul>
+			</div>
 
-		   <div class="menu-text">类型<div class="menu-image"><img src="image\menu.png" alt=""></div></div>
-
-		</div>
-	</section>
+			</section>
 
 	<section class="main-regin">
 		<div class="text-box">

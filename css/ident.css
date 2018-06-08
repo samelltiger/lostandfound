@@ -221,6 +221,7 @@ h2
 .student-name-input
 {
 	margin-right:233px;
+	border-radius: 5px;
 }
 .s-card-box
 {
@@ -238,6 +239,7 @@ h2
 .s-card-input
 {
    margin-right:135px;
+   border-radius: 5px;
 }
 .id-card
 {

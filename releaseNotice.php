@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title></title>
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/pickup.css">
+    <link rel="stylesheet" href="./css/releaseNotice.css">
 </head>
 <body>
 	<header>
@@ -54,8 +54,8 @@
 			  <div class="border-1">	
 				<div class="sort">
 					<div class="sort-title">类型：</div>
-					   <span class="select-style1">
-					      <select name ="type" class="select1">
+					   <div class="select-style">
+					      <select name ="type" class="select">
 					    	<option value="0">手机</option>
 					    	<option value="1">钱包</option>
 					    	<option value="2">卡片</option>
@@ -68,13 +68,7 @@
 					        <option value="9">手包</option>
 					        <option value="10">其他</option>
 					     </select>
-					   </span>
-					   <span class="select-style2">
-					   	     <select name ="type" class="select2">
-					    	<option value="0">寻物启事</option>
-					    	<option value="1">招领启事</option>
-					     </select>
-					   </span>
+					   </div>
 				</div>
 
 				<div class="title-box">
@@ -89,7 +83,7 @@
 
                 <div class="item-description-box">
                 	<span class="item-description-title">物品描述:</span>
-                	<textarea class="long-text"	 name="content" id="" cols="29" rows="3"></textarea>
+                	<textarea class="long-text"	 name="content" id="" cols="32" rows="3"></textarea>
                 </div>
 
                 <div class="contact-way-box">

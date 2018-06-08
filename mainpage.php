@@ -1,10 +1,10 @@
 
-<html>
+<html> 
 <head>
 	<meta charset="utf-8">
 	<title></title>
 	<link rel="stylesheet" href="./css/normalize.css">
-	<link rel="stylesheet" href="./css/mainpage2.css">
+	<link rel="stylesheet" href="./css/mainpage.css">
 	<script type="text/javascript" src="/js/mainpage.js"></script>
 	<link rel="stylesheet" type="text/css" href="/css/zzsc-demo.css">
 </head>
@@ -13,7 +13,7 @@
 		<nav>
 			<div class="logo"><a href="mainpage.php"><img src="image\logo.png"></a></div>
 			<ul>
-				<li class="title-li"><a href="pickup.php">&nbsp;&nbsp;&nbsp;拾物</a></li>
+				<li class="title-li"><a href="pickup.php">&nbsp;&nbsp;&nbsp;发布</a></li>
 				<li class="title-li"><a href="foundthing.php">寻物启事</a></li>
 			</ul>
 			<div class="login-text">
@@ -70,7 +70,7 @@
 
 			<section class="section2">
 	
-						 <div class="big-box1">
+			<div class="big-box1">
 			<div class="box1"><img src="image\10.png" alt=""></div>
 
 			<div class="box2"><img src="image\2.png" alt=""></div>
